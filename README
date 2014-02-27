@@ -1,0 +1,58 @@
+
+　　＊＊＊＊ 「あり？(Japanese fat ae with mock SKK)」の説明  ＊＊＊＊
+
+			   ari version 1.00,  Copyright (C) 1991 Yuji Nimura
+
+
+本ドキュメントは日本語入力機能付きエディタ「あり？」についての手引です。
+
+
+【配布する内容】
+
+  ・ドキュメント
+	README       … 本ドキュメント
+	ari.doc      … 「あり？」の詳細な解説
+	changes.doc  … 「あり？」の変更履歴
+	COPYING      … GNU General Public License version 1
+	COPYING.jpn  … GNU General Public License version 1 (和訳)
+  ・ソースプログラム
+	Makefile
+	config.h、lazy.h、ae.c、lazy.c、kanakan.c、mnxio.c、skksrch.c
+  ・おまけ
+	ae_spoiler.c … AE SPOILER版オリジナルソース(Pablic Domain Software)
+
+
+【使用許諾の範囲】
+
+「あり？」は、GNU General Public Licenseに従った free softwareとして配布され
+ています。詳細については ari.docと GNU General Public License version 1 ある
+いはそれ以降の任意のバージョンをお読みください。
+
+
+【インストール方法】
+
+インストール作業には、ari.docの次の項目を参照してください。
+基本的には Makefileを変更して makeするだけです。
+	『付録Ｄ  コンパイルオプションの説明』
+	『付録Ｆ  トラブルシューティング』
+	『付録Ｇ  日本語 minix 1.5 for IBM-PC で「あり？」を使う』
+
+ソースに変更が必要な場合は、次の項目を参考にしてください。
+	『付録Ｃ  ソースの簡単な説明』
+	『付録Ｅ  ariで使う主要な定数定義の説明』
+
+
+【使いかた】
+
+エディタ機能、漢字コードの設定、日本語入力方法は、それぞれ ari.docの次の項目
+を参照してください。
+
+	『２. 編集機能』
+	『3.1 利用する漢字コードの指定の仕方』
+	『４. 日本語入力機能』
+
+
+					    「あり？」 1.00 版  Apr. 12 1992
+							  著作者  二村  祐地
+						JUNET:nimura@isl.melco.co.jp
+					     Yuji.Nimura@ecs.isl.melco.co.jp
