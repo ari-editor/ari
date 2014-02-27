@@ -1,58 +1,58 @@
 
-$@!!!!!v!v!v!v(J $@!V$"$j!)(J(Japanese fat ae with mock SKK)$@!W$N@bL@(J  $@!v!v!v!v(J
+　　＊＊＊＊ 「あり？(Japanese fat ae with mock SKK)」の説明  ＊＊＊＊
 
 			   ari version 1.00,  Copyright (C) 1991 Yuji Nimura
 
 
-$@K\%I%-%e%a%s%H$OF|K\8lF~NO5!G=IU$-%(%G%#%?!V$"$j!)!W$K$D$$$F$N<j0z$G$9!#(J
+本ドキュメントは日本語入力機能付きエディタ「あり？」についての手引です。
 
 
-$@!ZG[I[$9$kFbMF![(J
+【配布する内容】
 
-  $@!&%I%-%e%a%s%H(J
-	README       $@!D(J $@K\%I%-%e%a%s%H(J
-	ari.doc      $@!D(J $@!V$"$j!)!W$N>\:Y$J2r@b(J
-	changes.doc  $@!D(J $@!V$"$j!)!W$NJQ99MzNr(J
-	COPYING      $@!D(J GNU General Public License version 1
-	COPYING.jpn  $@!D(J GNU General Public License version 1 ($@OBLu(J)
-  $@!&%=!<%9%W%m%0%i%`(J
+  ・ドキュメント
+	README       … 本ドキュメント
+	ari.doc      … 「あり？」の詳細な解説
+	changes.doc  … 「あり？」の変更履歴
+	COPYING      … GNU General Public License version 1
+	COPYING.jpn  … GNU General Public License version 1 (和訳)
+  ・ソースプログラム
 	Makefile
-	config.h$@!"(Jlazy.h$@!"(Jae.c$@!"(Jlazy.c$@!"(Jkanakan.c$@!"(Jmnxio.c$@!"(Jskksrch.c
-  $@!&$*$^$1(J
-	ae_spoiler.c $@!D(J AE SPOILER$@HG%*%j%8%J%k%=!<%9(J(Pablic Domain Software)
+	config.h、lazy.h、ae.c、lazy.c、kanakan.c、mnxio.c、skksrch.c
+  ・おまけ
+	ae_spoiler.c … AE SPOILER版オリジナルソース(Pablic Domain Software)
 
 
-$@!Z;HMQ5vBz$NHO0O![(J
+【使用許諾の範囲】
 
-$@!V$"$j!)!W$O!"(JGNU General Public License$@$K=>$C$?(J free software$@$H$7$FG[I[$5$l(J
-$@$F$$$^$9!#>\:Y$K$D$$$F$O(J ari.doc$@$H(J GNU General Public License version 1 $@$"$k(J
-$@$$$O$=$l0J9_$NG$0U$N%P!<%8%g%s$r$*FI$_$/$@$5$$!#(J
-
-
-$@!Z%$%s%9%H!<%kJ}K!![(J
-
-$@%$%s%9%H!<%k:n6H$K$O!"(Jari.doc$@$N<!$N9`L\$r;2>H$7$F$/$@$5$$!#(J
-$@4pK\E*$K$O(J Makefile$@$rJQ99$7$F(J make$@$9$k$@$1$G$9!#(J
-	$@!XIUO?#D(J  $@%3%s%Q%$%k%*%W%7%g%s$N@bL@!Y(J
-	$@!XIUO?#F(J  $@%H%i%V%k%7%e!<%F%#%s%0!Y(J
-	$@!XIUO?#G(J  $@F|K\8l(J minix 1.5 for IBM-PC $@$G!V$"$j!)!W$r;H$&!Y(J
-
-$@%=!<%9$KJQ99$,I,MW$J>l9g$O!"<!$N9`L\$r;29M$K$7$F$/$@$5$$!#(J
-	$@!XIUO?#C(J  $@%=!<%9$N4JC1$J@bL@!Y(J
-	$@!XIUO?#E(J  ari$@$G;H$&<gMW$JDj?tDj5A$N@bL@!Y(J
+「あり？」は、GNU General Public Licenseに従った free softwareとして配布され
+ています。詳細については ari.docと GNU General Public License version 1 ある
+いはそれ以降の任意のバージョンをお読みください。
 
 
-$@!Z;H$$$+$?![(J
+【インストール方法】
 
-$@%(%G%#%?5!G=!"4A;z%3!<%I$N@_Dj!"F|K\8lF~NOJ}K!$O!"$=$l$>$l(J ari.doc$@$N<!$N9`L\(J
-$@$r;2>H$7$F$/$@$5$$!#(J
+インストール作業には、ari.docの次の項目を参照してください。
+基本的には Makefileを変更して makeするだけです。
+	『付録Ｄ  コンパイルオプションの説明』
+	『付録Ｆ  トラブルシューティング』
+	『付録Ｇ  日本語 minix 1.5 for IBM-PC で「あり？」を使う』
 
-	$@!X#2(J. $@JT=85!G=!Y(J
-	$@!X(J3.1 $@MxMQ$9$k4A;z%3!<%I$N;XDj$N;EJ}!Y(J
-	$@!X#4(J. $@F|K\8lF~NO5!G=!Y(J
+ソースに変更が必要な場合は、次の項目を参考にしてください。
+	『付録Ｃ  ソースの簡単な説明』
+	『付録Ｅ  ariで使う主要な定数定義の説明』
 
 
-					    $@!V$"$j!)!W(J 1.00 $@HG(J  Apr. 12 1992
-							  $@Cx:n<T(J  $@FsB<(J  $@M4CO(J
+【使いかた】
+
+エディタ機能、漢字コードの設定、日本語入力方法は、それぞれ ari.docの次の項目
+を参照してください。
+
+	『２. 編集機能』
+	『3.1 利用する漢字コードの指定の仕方』
+	『４. 日本語入力機能』
+
+
+					    「あり？」 1.00 版  Apr. 12 1992
+							  著作者  二村  祐地
 						JUNET:nimura@isl.melco.co.jp
 					     Yuji.Nimura@ecs.isl.melco.co.jp

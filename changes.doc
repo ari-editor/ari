@@ -1,167 +1,167 @@
 
-$@!!!!!v!v!v!v(J $@!V$"$j!)(J(Japanese fat ae with mock SKK)$@!W$N@bL@(J  $@!v!v!v!v(J
+　　＊＊＊＊ 「あり？(Japanese fat ae with mock SKK)」の説明  ＊＊＊＊
 
 			   ari version 1.00,  Copyright (C) 1991 Yuji Nimura
-					    $@!V$"$j!)!W(J 1.00 $@HG(J  Apr. 12 1992
-							  $@Cx:n<T(J  $@FsB<(J  $@M4CO(J
+					    「あり？」 1.00 版  Apr. 12 1992
+							  著作者  二村  祐地
 						JUNET:nimura@isl.melco.co.jp
 					     Yuji.Nimura@ecs.isl.melco.co.jp
 
 
-$@K\%I%-%e%a%s%H$OF|K\8lF~NO5!G=IU$-%(%G%#%?!V$"$j!)!W$K$D$$$F$NJQ99MzNr$G$9!#(J
-$@$D$.$NJQ99MzNr$K$D$$$F5-:\$7$F$$$^$9!#(J
+本ドキュメントは日本語入力機能付きエディタ「あり？」についての変更履歴です。
+つぎの変更履歴について記載しています。
 
-  $@!&(Jversion 0.92 -> 1.00
+  ・version 0.92 -> 1.00
 
 
-$@!v!v!v!v(J version 0.92 -> 1.00 $@!v!v!v!v(J
+＊＊＊＊ version 0.92 -> 1.00 ＊＊＊＊
 
-$@!{JQ99FbMF35MW(J
+○変更内容概要
 
-$@!&<-=qEPO?5!G=$rDI2C!J(J':toroku'$@$"$k$$$O(J':touroku'$@%3%^%s%I!K(J
-  $@!J(Jari.doc $@!X(J4.6 $@8l6g$NEPO?!Y;2>H!K(J
-$@!&2>L>4A;zJQ49$K$*$1$kJQ498uJd=gJQ99$r<B8=(J
-  $@!J(Jari.doc $@!XIUO?(J B.3 $@8l6g$N8!:w!"EPO?$H%m!<%+%k<-=q%U%!%$%k$N99?7!Y;2>H!K(J
-$@!&%m!<%+%k<-=q%U%!%$%k$N99?75!G=$rDI2C(J
-  $@!J(Jari.doc $@!XIUO?(J B.3 $@8l6g$N8!:w!"EPO?$H%m!<%+%k<-=q%U%!%$%k$N99?7!Y;2>H!K(J
-$@!&%$%s%G%C%/%9IU$-<-=q%U%!%$%k$K$h$k5/F0;~4V$rC;=L(J
-  $@!J(Jari.doc $@!XIUO?(J B.4 $@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$K$D$$$F!Y;2>H!K(J
-$@!&4D6-JQ?t(J ARI_SETUP$@$K$h$k5/F0;~$NF0:n;XDj$r<B8=(J
-  $@!J(Jari.doc $@!X(J2.7 $@F0:n;XDj$K$D$$$F!Y;2>H!K(J
-$@!&(J':set param'$@%3%^%s%I$K$h$k!"4A;z%3!<%I$*$h$SF0:n;XDj5/F0$rDI2C(J
-  $@!J(Jari.doc $@!X(J2.7 $@F0:n;XDj$K$D$$$F!Y;2>H!K(J
-$@!&%3%s%Q%$%k%*%W%7%g%s(J BRKFENCE$@$N:o=|!JF0:n;XDj$K$h$k<B8=$XJQ99!K(J
-  $@!J(Jari.doc $@!X(J2.7 $@F0:n;XDj$K$D$$$F!Y;2>H!K(J
-$@!&%3%s%Q%$%k%*%W%7%g%s(J UPDATE_DIC$@!"(JFRAME_POOL$@!"(JSMALL_POOL$@!"(JSMALL_REG$@$NDI2C(J
-  $@!J(Jari.doc $@!XIUO?#D(J $@%3%s%Q%$%k%*%W%7%g%s$N@bL@!Y;2>H!K(J
-$@!&%+!<%=%k$rC18l$G0\F0$5$;$k>l9g!"4A;z$d2>L>$b!J$"$kDxEY!K9MN8$9$k$h$&JQ99(J
-$@!&(Jlazy.c$@$K=8Ls$5$l$F$$$?C<Kv@)8f5!G=$N$&$A!"5!<o0MB8@-$N9b$$ItJ,$rJ,N%FHN)(J
-  $@!J(Jmnxio.c$@$NDI2C!K(J
-$@!&(Jstandard $@%?%$%W$N5/F0;~$K!"2>L>4A;zJQ49%W%m%0%i%`$N5/F0$rBT$D$h$&JQ99(J
-  $@!J(Jsleep()$@4X?t$r$D$+$o$J$/$7$?!K(J
-$@!&(J':q'$@%3%^%s%I!"(J':w'$@%3%^%s%I!"(J':wq'$@$*$h$S(J':x'$@%3%^%s%I$G%(%i!<;~%a%C%;!<%8$r(J
-  $@=PNO$9$k$h$&JQ99(J
-$@!&(J':w file'$@%3%^%s%I$rDI2C(J
+・辞書登録機能を追加（':toroku'あるいは':touroku'コマンド）
+  （ari.doc 『4.6 語句の登録』参照）
+・仮名漢字変換における変換候補順変更を実現
+  （ari.doc 『付録 B.3 語句の検索、登録とローカル辞書ファイルの更新』参照）
+・ローカル辞書ファイルの更新機能を追加
+  （ari.doc 『付録 B.3 語句の検索、登録とローカル辞書ファイルの更新』参照）
+・インデックス付き辞書ファイルによる起動時間を短縮
+  （ari.doc 『付録 B.4 インデックス付き辞書ファイルについて』参照）
+・環境変数 ARI_SETUPによる起動時の動作指定を実現
+  （ari.doc 『2.7 動作指定について』参照）
+・':set param'コマンドによる、漢字コードおよび動作指定起動を追加
+  （ari.doc 『2.7 動作指定について』参照）
+・コンパイルオプション BRKFENCEの削除（動作指定による実現へ変更）
+  （ari.doc 『2.7 動作指定について』参照）
+・コンパイルオプション UPDATE_DIC、FRAME_POOL、SMALL_POOL、SMALL_REGの追加
+  （ari.doc 『付録Ｄ コンパイルオプションの説明』参照）
+・カーソルを単語で移動させる場合、漢字や仮名も（ある程度）考慮するよう変更
+・lazy.cに集約されていた端末制御機能のうち、機種依存性の高い部分を分離独立
+  （mnxio.cの追加）
+・standard タイプの起動時に、仮名漢字変換プログラムの起動を待つよう変更
+  （sleep()関数をつかわなくした）
+・':q'コマンド、':w'コマンド、':wq'および':x'コマンドでエラー時メッセージを
+  出力するよう変更
+・':w file'コマンドを追加
 
-$@!{DI2C$5$l$?%3%^%s%I0lMw(J
+○追加されたコマンド一覧
 
- :toroku     -- $@C18lEPO?(J
- :touroku    -- $@C18lEPO?(J
- :set param  -- $@F0:n;XDj(J
- :set        -- $@F0:n;XDj>u67I=<((J
- :set all    -- $@F0:n;XDj>u67I=<((J
- :setup      -- $@F0:n;XDj>u67I=<((J
+ :toroku     -- 単語登録
+ :touroku    -- 単語登録
+ :set param  -- 動作指定
+ :set        -- 動作指定状況表示
+ :set all    -- 動作指定状況表示
+ :setup      -- 動作指定状況表示
 
-':set param'$@%3%^%s%I$N(J param$@$H$7$F;XDj$G$-$k%Q%i%a!<%?$r0J2<$K<($7$^$9!#(J
-  $@!J(Jari.doc $@!X(J2.7 $@F0:n;XDj$K$D$$$F!Y;2>H!K(J
+':set param'コマンドの paramとして指定できるパラメータを以下に示します。
+  （ari.doc 『2.7 動作指定について』参照）
 
-  codedef=ENE@J   $@4A;z%3!<%I$r;XDj$9$k!#(J
-  tab=8           TAB$@NL$r;XDj$9$k!#(J
-                      notabexpand$@$r;XDj$7$F$$$k>l9g$O!"(JTAB$@NL$OC<Kv$N@_Dj$H(J
-                      $@0lCW$7$F$$$kI,MW$,$"$k!#(J
-  notabexpand     TAB$@$NE83+$rC<Kv5!G=$K$^$+$;$k!#(J
-  tabexpand       TAB$@$r(Jspase$@$KE83+$7$FC<Kv$KAw$k!#(J
-  nobreakfence    $@J8;z$NF~NO;~$K(JBS$@$GF~NO3+;O0LCV$r1[$($FJ8;z$r:o=|$G$-$J$$!#(J
-  breakfence      $@J8;z$NF~NO;~$K(JBS$@$GF~NO3+;O0LCV$r1[$($FJ8;z$r:o=|$G$-$k!#(J
-  noasciiindicate $@J8;z$NF~NO;~!"!X(JASCII$@%b!<%I!Y$G$O2hLL$K%b!<%II=<($r$7$J$$!#(J
-  asciiindicate   $@J8;z$NF~NO;~!"!X(JASCII$@%b!<%I!Y$G$O2hLL$K%b!<%II=<(!X!Z(Ja$@![!Y(J
-                  $@$rI=<($9$k!#(J
+  codedef=ENE@J   漢字コードを指定する。
+  tab=8           TAB量を指定する。
+                      notabexpandを指定している場合は、TAB量は端末の設定と
+                      一致している必要がある。
+  notabexpand     TABの展開を端末機能にまかせる。
+  tabexpand       TABをspaseに展開して端末に送る。
+  nobreakfence    文字の入力時にBSで入力開始位置を越えて文字を削除できない。
+  breakfence      文字の入力時にBSで入力開始位置を越えて文字を削除できる。
+  noasciiindicate 文字の入力時、『ASCIIモード』では画面にモード表示をしない。
+  asciiindicate   文字の入力時、『ASCIIモード』では画面にモード表示『【a】』
+                  を表示する。
 
-$@!{4D6-JQ?t(J ARI_SETUP$@$K$h$kF0:n;XDj(J
-  $@!J(Jari.doc $@!X(J2.7 $@F0:n;XDj$K$D$$$F!Y;2>H!K(J
+○環境変数 ARI_SETUPによる動作指定
+  （ari.doc 『2.7 動作指定について』参照）
 
-':set param'$@%3%^%s%I$G@_Dj$G$-$kF0:n;XDj$O!"$9$Y$F4D6-JQ?t(J ARI_SETUP$@$rMQ$$$F(J
-$@!V$"$j!)!W5/F0;~$K$b@_Dj$9$k$3$H$,$G$-$^$9!#4D6-JQ?t(J ARI_SETUP$@$K$O%Q%i%a!<%?(J
-$@$N$_5-:\$7$^$9!#(J'|'$@$^$?$O(J ','$@$r$O$5$`$3$H$GJ#?t$NF0:n;XDj$b2DG=$G$9!#(J
-  $@!V$"$j!)!W$N%G%U%)%k%H$NF0:n;XDj$O0J2<$HF1Ey$G$9!#(J
+':set param'コマンドで設定できる動作指定は、すべて環境変数 ARI_SETUPを用いて
+「あり？」起動時にも設定することができます。環境変数 ARI_SETUPにはパラメータ
+のみ記載します。'|'または ','をはさむことで複数の動作指定も可能です。
+  「あり？」のデフォルトの動作指定は以下と同等です。
 
   $ ARI_SETUP='codedef=ENE@J | tab=8 | notabexpand'
   $ ARI_SETUP="$ARISETUP |nobreakfence|noasciiindicate"
   $ export ARI_SETUP
 
-$@$J$*4D6-JQ?t(J ARI_CODEDEF$@$K$h$k4A;z%3!<%I;XDj$O!"4D6-JQ?t(J ARI_SETUP$@$K$h$k;XDj(J
-$@$h$j$bM%@h$5$l$^$9!#(J
+なお環境変数 ARI_CODEDEFによる漢字コード指定は、環境変数 ARI_SETUPによる指定
+よりも優先されます。
 
-$@!{<-=qEPO?$N;EJ}(J
-  $@!J(Jari.doc $@!X(J4.6 $@8l6g$NEPO?!Y;2>H!K(J
+○辞書登録の仕方
+  （ari.doc 『4.6 語句の登録』参照）
 
-$@8l6g$NEPO?$O(J ':toroku'$@%3%^%s%I$G9T$$$^$9!#(J(':touroku'$@%3%^%s%I$bF1MM(J)
+語句の登録は ':toroku'コマンドで行います。(':touroku'コマンドも同様)
 
-'toroku'$@%3%^%s%I$N<B9T$K$5$-$@$C$F!"$^$:%+!<%=%k$rEPO?$7$h$&$H$9$k8l6g$N@hF,(J
-$@$K0\F0$7$F$*$-$^$9!#<!$K(J 'toroku'$@%3%^%s%I$r<B9T$9$k$H!"2hLL:82<$K!XEPO?C18l!'!Y(J
-$@$HI=<($5$l$^$9$N$G!"(J'h'$@$"$k$$$O(J 'l'$@$G%+!<%=%k$r0\F0$7$FEPO?$9$k8l6g$r;XDj$7(J
-($@C18l$O2hLL:82<$KI=<($5$l$k(J)$@!"(JCR( = ^M)$@$rF~NO$7$^$9!#(J
+'toroku'コマンドの実行にさきだって、まずカーソルを登録しようとする語句の先頭
+に移動しておきます。次に 'toroku'コマンドを実行すると、画面左下に『登録単語：』
+と表示されますので、'h'あるいは 'l'でカーソルを移動して登録する語句を指定し
+(単語は画面左下に表示される)、CR( = ^M)を入力します。
 
-$@EPO?C18l$N;XDj$,$9$`$H!"$D$.$OFI$_$rF~NO$7$^$9!#Nc$($PEPO?C18l$H$7$F!XLnNIG-!Y(J
-$@$r;XDj$7$F$$$k$H!"2hLL:G2<9T$K$O<!$N$h$&$KI=<($5$l$^$9!#(J 
+登録単語の指定がすむと、つぎは読みを入力します。例えば登録単語として『野良猫』
+を指定していると、画面最下行には次のように表示されます。 
 
-  $@!Z$"![(J  $@C18l!'!VLnNIG-!W!!$h$_!'(J
+  【あ】  単語：「野良猫」　よみ：
 
-$@FI$_$NF~NO$ODL>o$NJ8;zF~NO$HF1MM$G$9!#$?$@$71Q?t;z!"5-9f!"$R$i$,$J$N$_$,M-8z(J
-$@$G$9!#(JCR$@$rF~NO$9$k$H8l6g$NEPO?$O=*N;$7$^$9!#EPO?$7$?8l6g$O$9$0$K2>L>4A;zJQ49(J
-$@$GMxMQ$G$-$^$9$,!"%m!<%+%k<-=q%U%!%$%k$K$O!V$"$j!)!W=*N;;~$KH?1G$5$l$^$9!#(J
+読みの入力は通常の文字入力と同様です。ただし英数字、記号、ひらがなのみが有効
+です。CRを入力すると語句の登録は終了します。登録した語句はすぐに仮名漢字変換
+で利用できますが、ローカル辞書ファイルには「あり？」終了時に反映されます。
 
-$@$J$*8l6g$NEPO?$K<:GT$7$?>l9g$O2hLL:82<$K!XC18lEPO?$G$-$^$;$s!Y$HI=<($5$l$^$9!#(J
-$@$^$?EPO?C18l$dFI$_$ND9$5$,#0$G$"$C$?$j!"(JESC$@$,F~NO$5$l$?>l9g$O!"C18lEPO?$OCfCG!"(J
-$@=*N;$7$^$9!#(J
+なお語句の登録に失敗した場合は画面左下に『単語登録できません』と表示されます。
+また登録単語や読みの長さが０であったり、ESCが入力された場合は、単語登録は中断、
+終了します。
 
-$@!{2>L>4A;zJQ49$K$*$1$kJQ498uJd8!:w=gHV$NJQ99(J
-  $@!J(Jari.doc $@!XIUO?(J B.3 $@8l6g$N8!:w!"EPO?$H%m!<%+%k<-=q%U%!%$%k$N99?7!Y;2>H!K(J
+○仮名漢字変換における変換候補検索順番の変更
+  （ari.doc 『付録 B.3 語句の検索、登録とローカル辞書ファイルの更新』参照）
 
-$@$b$C$H$b:G6a$K;H$o$l$?8uJd$r:G=i$K8!:w$9$k$h$&8!:w=gHV$r<+F0E*$KJQ99$7$^$9!#(J
-$@$?$@$7%3%s%Q%$%k%*%W%7%g%s(J SMALL_POOL $@$"$k$$$O(J SMALL_REG$@$rM-8z$K$7$F(J make$@$7$?(J
-$@>l9g$O!"$3$N5!G=$OL58z$H$J$j$^$9!#(J
+もっとも最近に使われた候補を最初に検索するよう検索順番を自動的に変更します。
+ただしコンパイルオプション SMALL_POOL あるいは SMALL_REGを有効にして makeした
+場合は、この機能は無効となります。
 
-$@!{%m!<%+%k<-=q$N99?75!G=(J
-  $@!J(Jari.doc $@!XIUO?(J B.3 $@8l6g$N8!:w!"EPO?$H%m!<%+%k<-=q%U%!%$%k$N99?7!Y;2>H!K(J
+○ローカル辞書の更新機能
+  （ari.doc 『付録 B.3 語句の検索、登録とローカル辞書ファイルの更新』参照）
 
-$@?7$?$KEPO?$5$l$?C18l$O!"%m!<%+%k<-=q%U%!%$%k$KDI2C$5$l$^$9!#(J
-$@85$N%m!<%+%k<-=q%U%!%$%k$O!"(J($@2DG=$G$"$l$P(J)$@=>Mh$N%U%!%$%kL>$K(J'~'$@$rDI2C$7$?(J
-$@L>A0$GJ]B8$5$l$^$9!#(J
+新たに登録された単語は、ローカル辞書ファイルに追加されます。
+元のローカル辞書ファイルは、(可能であれば)従来のファイル名に'~'を追加した
+名前で保存されます。
 
 
-$@!{%$%s%G%C%/%9IU$-<-=q%U%!%$%k$N:n@.$N;EJ}(J
-  $@!J(Jari.doc $@!XIUO?(J B.4 $@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$K$D$$$F!Y;2>H!K(J
+○インデックス付き辞書ファイルの作成の仕方
+  （ari.doc 『付録 B.4 インデックス付き辞書ファイルについて』参照）
 
-$@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$O!"(JSKK$@<-=q%U%!%$%k$r$b$H$K8+=P$70LCV$N>pJs$r(J
-$@%U%!%$%k$N@hF,$KIU2C$7$?$b$N$G$9!#(J
+インデックス付き辞書ファイルは、SKK辞書ファイルをもとに見出し位置の情報を
+ファイルの先頭に付加したものです。
 
-$@2>L>4A;zJQ49%W%m%0%i%`(J skksrch$@$"$k$$$O(J stand alone$@%?%$%W$N!V$"$j!)!W$O!"%$%s(J
-$@%G%C%/%9$NIU$$$F$$$J$$IaDL$N(J SKK$@<-=q%U%!%$%k$rMxMQ$9$k$3$H$,$G$-$^$9$,!"Bg$-(J
-$@$J<-=q%U%!%$%k$O%$%s%G%C%/%9IU$-<-=q%U%!%$%k$H$9$k$3$H$G!"%W%m%0%i%`$r9bB.$K(J
-$@5/F0$9$k$3$H$,$G$-$^$9!#$3$N$?$a%5%$%:$NBg$-$$6&DL<-=q%U%!%$%k$O%$%s%G%C%/%9(J
-$@IU$-<-=q%U%!%$%k$H$5$l$k$3$H$r4+$a$^$9!#(J
+仮名漢字変換プログラム skksrchあるいは stand aloneタイプの「あり？」は、イン
+デックスの付いていない普通の SKK辞書ファイルを利用することができますが、大き
+な辞書ファイルはインデックス付き辞書ファイルとすることで、プログラムを高速に
+起動することができます。このためサイズの大きい共通辞書ファイルはインデックス
+付き辞書ファイルとされることを勧めます。
 
-$@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$N:n@.$K$O(J skksrch$@%3%^%s%I$r;H$$!"85$K$J$k<-=q(J
-$@%U%!%$%k$r(Jskkjisyo$@!":n@.$9$k%$%s%G%C%/%9IU$-<-=q$r(J idxskkjisyo $@$H$9$k$H!"(J
+インデックス付き辞書ファイルの作成には skksrchコマンドを使い、元になる辞書
+ファイルをskkjisyo、作成するインデックス付き辞書を idxskkjisyo とすると、
 
  $ skksrch -index skkjisyo > idxskkjisyo
 
-$@$"$k$$$O!"(J
+あるいは、
 
  $ skksrch -index skkjisyo -to idxskkjisyo
 
-$@$H<B9T$7$F$/$@$5$$!#(J
+と実行してください。
 
-$@$J$*%$%s%G%C%/%9>pJs$O(J ASCII$@%F%-%9%H$H$7$FIU2C$5$l$F$$$^$9$N$G!"%$%s%G%C%/%9IU(J
-$@$-<-=q$O(J int$@7?JQ?t$NBg$-$5$d(J endian$@$N0[$J$k%7%9%F%`4V$G$b6&M-$9$k$3$H$,$G$-$^(J
-$@$9!#$^$?(J SKK$@<-=q%U%!%$%kF1MM%(%G%#%?Ey$GMF0W$KJT=8$,2DG=$G$9!#$?$@$7%$%s%G%C%/(J
-$@%9IU$-<-=q%U%!%$%k$rJT=8$7$?>l9g$O%$%s%G%C%/%9>pJs$,L58z$K$J$j$^$9$N$G!"$+$J$i(J
-$@$:JT=88e$N%U%!%$%k$r$b$H$K:FEY%$%s%G%C%/%9IU$-<-=q%U%!%$%k$r@8@.$7D>$7$F$/$@$5(J
-$@$$!#(J
+なおインデックス情報は ASCIIテキストとして付加されていますので、インデックス付
+き辞書は int型変数の大きさや endianの異なるシステム間でも共有することができま
+す。また SKK辞書ファイル同様エディタ等で容易に編集が可能です。ただしインデック
+ス付き辞書ファイルを編集した場合はインデックス情報が無効になりますので、かなら
+ず編集後のファイルをもとに再度インデックス付き辞書ファイルを生成し直してくださ
+い。
 
-$@!{%3%s%Q%$%k%*%W%7%g%s$NDI2C$*$h$S:o=|(J
-  $@!J(Jari.doc $@!XIUO?#D(J $@%3%s%Q%$%k%*%W%7%g%s$N@bL@!Y;2>H!K(J
+○コンパイルオプションの追加および削除
+  （ari.doc 『付録Ｄ コンパイルオプションの説明』参照）
 
-$@!&DI2C$5$l$?%*%W%7%g%s(J
-    UPDATE_DIC $@!D(J $@C18lEPO?!"JQ498uJd=gJQ99$*$h$S<-=q99?7$N3F5!G=$rM-8z$K$9$k(J
-    FRAME_POOL $@!D(J UPDATE_DIC$@;XDj;~$KMxMQ$9$kFbIt:n6HNN0h$NBg$-$5$r;XDj(J
-    SMALL_POOL $@!D(J UPDATE_DIC$@;XDj;~$G$NJQ498uJd=gJQ99$N5!G=$rL58z$K$9$k(J
-                  ($@FbIt:n6HNN0h$N8zN(E*MxMQ$N$?$a(J)
-    SMALL_REG  $@!D(J MINIX for IBM/PC$@$J$I(J data + stack $@NN0h$,(J 64KB$@$K@)8B$5$l$F$$(J
-                  $@$k>l9g$K;XDj(J
+・追加されたオプション
+    UPDATE_DIC … 単語登録、変換候補順変更および辞書更新の各機能を有効にする
+    FRAME_POOL … UPDATE_DIC指定時に利用する内部作業領域の大きさを指定
+    SMALL_POOL … UPDATE_DIC指定時での変換候補順変更の機能を無効にする
+                  (内部作業領域の効率的利用のため)
+    SMALL_REG  … MINIX for IBM/PCなど data + stack 領域が 64KBに制限されてい
+                  る場合に指定
 
-$@!&:o=|$5$l$?%*%W%7%g%s(J
-    BRKFENCE   $@!D(J $@4D6-JQ?t(J ARI_SETUP$@$G5/F0;~$KF0:n;XDj$G$-$k$h$&$K$7$?$?$a(J
+・削除されたオプション
+    BRKFENCE   … 環境変数 ARI_SETUPで起動時に動作指定できるようにしたため
 
-$@!v!v!v!v(J End of changes.doc $@!v!v!v!v(J
+＊＊＊＊ End of changes.doc ＊＊＊＊

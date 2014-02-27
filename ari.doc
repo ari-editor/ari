@@ -1,60 +1,60 @@
 
-$@!!!!!v!v!v!v(J $@!V$"$j!)(J(Japanese fat ae with mock SKK)$@!W$N@bL@(J  $@!v!v!v!v(J
+　　＊＊＊＊ 「あり？(Japanese fat ae with mock SKK)」の説明  ＊＊＊＊
 
 			    ari version 1.00, Copyright (C) 1991 Yuji Nimura
-			  		    $@!V$"$j!)!W(J 1.00 $@HG(J  Apr. 12 1992
-							   $@Cx:n<T(J  $@FsB<(J $@M4CO(J
+			  		    「あり？」 1.00 版  Apr. 12 1992
+							   著作者  二村 祐地
 				               JUNET: nimura@isl.melco.co.jp
 				             Yuji.Nimura@ecs.isl.melco.co.jp
 
-$@K\%I%-%e%a%s%H$OF|K\8lF~NO5!G=IU$-%(%G%#%?!V$"$j!)!W$K$D$$$F$N>\:Y$J2r@b$G$9!#(J
+本ドキュメントは日本語入力機能付きエディタ「あり？」についての詳細な解説です。
 
 
-$@!!!Z;HMQ5vBz$NHO0O![(J
+　【使用許諾の範囲】
 
-	$@K\%W%m%0%i%`$O!"(JPublic Domain Software$@$G$"$k!V#A#E!W$r%Y!<%9$H$7$F$$(J
-$@$^$9$,!"JQ99ItJ,$*$h$S5!G=DI2CItJ,$OFsB<M4CO$,Cx:n8"$rM-$7$F$*$j$^$9!#(J
+	本プログラムは、Public Domain Softwareである「ＡＥ」をベースとしてい
+ますが、変更部分および機能追加部分は二村祐地が著作権を有しております。
 
-	$@K\%W%m%0%i%`$O(J free software$@$G$9!#$"$J$?$O!"(JFree Software Foundation
-$@$,8xI=$7$?(J GNU General Public License$@!J0lHL8xM-;HMQ5vBz!K(J version 1 $@$"$k$$$O(J
-$@$=$l0J9_$N3F%P!<%8%g%s$NCf$+$i$$$:$l$+$rA*Br$7!"$=$N%P!<%8%g%s$,Dj$a$k>r9`$K(J
-$@=>$C$FK\%W%m%0%i%`$r:FHRI[$^$?$OJQ99$9$k$3$H$,$G$-$^$9!#(J
+	本プログラムは free softwareです。あなたは、Free Software Foundation
+が公表した GNU General Public License（一般公有使用許諾） version 1 あるいは
+それ以降の各バージョンの中からいずれかを選択し、そのバージョンが定める条項に
+従って本プログラムを再頒布または変更することができます。
 
-	$@K\%W%m%0%i%`$OM-MQ$H$O;W$$$^$9$,!"HRI[$K$"$?$C$F$O!";T>l@-5Z$SFCDjL\(J
-$@E*E,9g@-$K$D$$$F$N0EL[$NJ]>Z$r4^$a$F!"$$$+$J$kJ]>Z$b9T$J$$$^$;$s!#>\:Y$K$D$$(J
-$@$F$O(J GNU$@0lHL8xM-;HMQ5vBz=q$r$*FI$_$/$@$5$$!#(J
+	本プログラムは有用とは思いますが、頒布にあたっては、市場性及び特定目
+的適合性についての暗黙の保証を含めて、いかなる保証も行ないません。詳細につい
+ては GNU一般公有使用許諾書をお読みください。
 
-	$@$"$J$?$O!"K\%W%m%0%i%`$H0l=o$K(J GNU $@0lHL8xM-;HMQ5vBz$N<L$7$r<u$1<h$C$F(J
-$@$$$k$O$:$G$9!#$=$&$G$J$$>l9g$O!"(JFree Software Foundation, Inc., 675 Mass Ave,
- Cambridge, MA 02139, USA $@$X<j;f$r=q$$$F$/$@$5$$!#(J
+	あなたは、本プログラムと一緒に GNU 一般公有使用許諾の写しを受け取って
+いるはずです。そうでない場合は、Free Software Foundation, Inc., 675 Mass Ave,
+ Cambridge, MA 02139, USA へ手紙を書いてください。
 
-	$@K\%W%m%0%i%`$N#B#B#SEy%M%C%H%o!<%/%3%_%e%K%F%#$X$NE>:\$b!"(JGNU $@0lHL8x(J
-$@M-;HMQ5vBz$K=>$C$F!"<+M3$K9T$&$3$H$,$G$-$^$9!#$?$@$7K\%W%m%0%i%`$N%P!<%8%g%s(J
-$@%"%C%W$K$D$$$F%U%)%m!<$KEX$a$F$/$@$5$$!#(J
+	本プログラムのＢＢＳ等ネットワークコミュニティへの転載も、GNU 一般公
+有使用許諾に従って、自由に行うことができます。ただし本プログラムのバージョン
+アップについてフォローに努めてください。
 
-	$@$J$*!"IUO?$N(Jae_spoiler.c$@$O(J AE SPOILER$@HG%*%j%8%J%k%=!<%9$G$"$j(J Public
-Domain Software$@$G$9!#$h$C$F(Jae_spoiler.c$@$N$_$r07$&>l9g$O(J GNU $@0lHL8xM-;HMQ5vBz(J
-$@$K=>$&I,MW$O$"$j$^$;$s!#$?$@$7K\%W%m%0%i%`$NHRI[$N:]$K$OK\%W%m%0%i%`$H$H$b$K(J
-$@<L$7$rEO$7$F$/$@$5$$!#(J
+	なお、付録のae_spoiler.cは AE SPOILER版オリジナルソースであり Public
+Domain Softwareです。よってae_spoiler.cのみを扱う場合は GNU 一般公有使用許諾
+に従う必要はありません。ただし本プログラムの頒布の際には本プログラムとともに
+写しを渡してください。
 
 
-$@!!!Z#A#E!&#S#K#K$NCx:n<T$NI=<(![(J
+　【ＡＥ・ＳＫＫの著作者の表示】
 
-	$@!y#A#E(J (Anthony's Editor $@$"$k$$$O(J Ant's Editor)$@$K$D$$$F(J
+	☆ＡＥ (Anthony's Editor あるいは Ant's Editor)について
 
-$@!V$"$j!)!W$,%Y!<%9$H$7$F$$$k(JAE (Anthony's Editor $@$"$k$$$O(J Ant's Editor)$@$O!"(J
-1991$@G/$N(JIOCCC(International Obfuscated C Code Cntest)$@$K$*$1$k(J BEST UTILITY$@$N(J
-$@M%>!:nIJ$G!"$=$NCx<T$O(JAnthony Howe$@;a$G$9!#(J
+「あり？」がベースとしているAE (Anthony's Editor あるいは Ant's Editor)は、
+1991年のIOCCC(International Obfuscated C Code Cntest)における BEST UTILITYの
+優勝作品で、その著者はAnthony Howe氏です。
 
-AE$@$O!"!J(Jcurses$@%i%$%V%i%j$r;H$C$F$O$$$k$b$N$N!K@5<0HG$O$?$C$?(J28$@9T!"(J SPOILER$@HG(J
-$@$G$9$i(J 360$@9T$NBg$-$5$7$+$J$$!X(JSimple Text Editor$@!Y$G$9!J$=$7$F$b$A$m$s%9%/%j(J
-$@!<%s%(%G%#%?$G$9!K!#!V$"$j!)!W$O$=$N(J SPOILER$@HG%=!<%9$r%Y!<%9$H$7!"%(%G%#%?$H(J
-$@$7$F$N5!G=DI2C$NB>!"(Jcurses$@%i%$%V%i%j$KBe$o$k2hLL@)8f5!G=$HF|K\8lF~NO5!G=$rIU(J
-$@2C$7$F$$$^$9!#(J
+AEは、（cursesライブラリを使ってはいるものの）正式版はたった28行、 SPOILER版
+ですら 360行の大きさしかない『Simple Text Editor』です（そしてもちろんスクリ
+ーンエディタです）。「あり？」はその SPOILER版ソースをベースとし、エディタと
+しての機能追加の他、cursesライブラリに代わる画面制御機能と日本語入力機能を付
+加しています。
 
-$@0J2<!"(JUSENET$@$N(JNewsgroups: comp.editors$@$KEj9F$5$l$?!"(JAE$@$K$D$$$F$N#2$D$N5-;v$N(J
-header$@$r5-:\$7$F$*$-$^$9!##1$DL\$,(JAE$@$N2r@b$H@5<0HG$N%=!<%9$r4^$_!"#2$DL\$,(J
-SPOILER$@HG$N%=!<%9$r4^$`5-;v$G$9!#(J
+以下、USENETのNewsgroups: comp.editorsに投稿された、AEについての２つの記事の
+headerを記載しておきます。１つ目がAEの解説と正式版のソースを含み、２つ目が
+SPOILER版のソースを含む記事です。
 
 -------------------- 1st article --------------------
 Newsgroups: comp.editors
@@ -72,943 +72,943 @@ Sender: ant@mks.com (Anthony Howe)
 Organization: Mortice Kern Systems, Waterloo, Ontario, CANADA
 -----------------------------------------------------
 
-	$@!y#S#K#K$K$D$$$F(J
+	☆ＳＫＫについて
 
-$@!V$"$j!)!W$G$O!"F|K\8lF~NO%$%s%?%U%'!<%9$r(J SKK$@Iw$K$7$F$$$k$[$+!"2>L>4A;zJQ49(J
-$@$NMW$H$J$kJQ49<-=q$O(JSKK$@$N0lIt$H$7$FG[I[$5$l$F$$$k<-=q%U%!%$%k$r;HMQ$9$k$J$I!"(J
- SKK$@$N1F6A$r<u$1$F$$$^$9!#(J
+「あり？」では、日本語入力インタフェースを SKK風にしているほか、仮名漢字変換
+の要となる変換辞書はSKKの一部として配布されている辞書ファイルを使用するなど、
+ SKKの影響を受けています。
 
- SKK$@$O!":4F#(J $@2mI'(J $@;a!JElKLBg3XEE5$DL?.8&5f=j!K$i$,3+H/$7$?!X(J Nemacs $@$N$?$a$K(J
-$@9bB.$G8zN(E*$JF|K\8lF~NO4D6-$rDs6!$9$k%7%9%F%`$G!"(JGnu General Public License
-$@$K=>$C$?(Jfree software$@$H$7$FG[I[!Y(J(skk4.30/ReadMe$@$h$j(J)$@$5$l$F$$$k$b$N$G!"(JJUNET
-$@$N(J Newsgroups:fj.sources$@$KEj9F$5$l$?%-%C%H$J$I$+$iF~<j$,2DG=$G$9!#(J
+ SKKは、佐藤 雅彦 氏（東北大学電気通信研究所）らが開発した『 Nemacs のために
+高速で効率的な日本語入力環境を提供するシステムで、Gnu General Public License
+に従ったfree softwareとして配布』(skk4.30/ReadMeより)されているもので、JUNET
+の Newsgroups:fj.sourcesに投稿されたキットなどから入手が可能です。
 
-$@!V$"$j!)!W$NMxMQ$K$"$?$C$F$O!":GDc8B(J SKK$@$K4^$^$l$k<-=q%U%!%$%k!J$"$k$$$OF1$8(J
-$@%U%)!<%^%C%H$G:n$i$l$?%U%!%$%k!K$rF~<j$9$kI,MW$,$"$j$^$9!#$^$?F|K\8lF~NOA`:n(J
-$@$O(J SKK$@$K4^$^$l$k(J SKK.tut$@$rFI$^$l$?$&$($G9T$o$l$k$3$H$r?d>)$7$^$9!#(J
-
-
-$@!!!Z<U<-$H$*OM$S![(J
-
-$@AG@2$i$7$$(Jsimple$@$J%(%G%#%?$r8xI=$5$l$?(J Anthony Howe $@;a$K46<U$$$?$7$^$9!#;a$N(J
-AE$@$,$J$1$l$P!V$"$j!)!W$OB8:_$7$^$;$s$G$7$?!#$^$?;a$K$O!";a$NAG@2$i$7$/(Jsimple
-$@$GH~$7$$%(%G%#%?(JAE$@$r(J fat$@$J$b$N$X$HJQ$($F$7$^$C$?$3$H$K$D$$$F!"$*OM$S$7$^$9!#(J
-
-$@:4F#(J $@2mI'(J $@;a$r$O$8$a$H$9$k(J SKK$@$N3+H/$K$?$:$5$o$C$?B?$/$N3'MM$K46<U$$$?$7$^$9!#(J
- SKK$@$N<-=q%U%!%$%k$H(J skkserv$@$N8!:w%"%k%4%j%:%`$K$h$C$F!V$"$j!)!W$OF|K\8lF~NO(J
-$@$,2DG=$K$J$j$^$7$?!#(J
-
-AE$@$NB8:_$r65$($F$/$l$?HSDM(J $@9d(J $@;a!"$^$?!"(JSKK $@$N;H$$J}$r65$($F$/$l!V$"$j!)!W$N(J
-$@F|K\8lF~NOA`:n$rI>2A$7$F$/$l$?9uED(J $@@6N4(J $@;a$K46<U$$$?$7$^$9!#(J
-
-$@!V$"$j!)!W$N&A%F%9%H$K;22C$7$F$/$@$5$C$?F|7P(JMIX MINIX $@2q5D$N2<5-$NJ}!9$K46<U(J
-$@$$$?$7$^$9!#(J($@7I>NN,!"=gITF1(J)
-
-	k.h@MIX$@!"(Jnemossan@MIX$@!"(Jkazushi@MIX$@!"(Jkneo@MIX$@!"(Jtakamiti@MIX$@!"(J
-	voit@MIX$@!"(Jjonney@MIX$@!"(Jutah.tsk@MIX$@!"(Jtshibata@MIX
+「あり？」の利用にあたっては、最低限 SKKに含まれる辞書ファイル（あるいは同じ
+フォーマットで作られたファイル）を入手する必要があります。また日本語入力操作
+は SKKに含まれる SKK.tutを読まれたうえで行われることを推奨します。
 
 
-$@!v!v!v(J $@L\<!(J $@!v!v!v(J
-$@#1(J. $@35MW(J
-  1.1 $@5/F0J}K!(J
-  1.2 $@4D6-JQ?t(J
-  1.3 $@CN$i$l$F$$$kITET9g$JE@!"(JKnown bug
-$@#2(J. $@JT=85!G=(J
-  2.1 $@%+!<%=%k$N0\F0(J
-  2.2 $@J8;z$NF~NO(J
-  2.3 $@J8;z$N:o=|(J
-  2.4 $@FbIt%P%C%U%!$X$NJ8;z$NJ#<L(J
-  2.5 $@FbIt%P%C%U%!$KJ]B8$5$l$?J8;z$NA^F~(J
-  2.6 $@$=$NB>$N5!G=(J
-  2.7 $@F0:n;XDj$K$D$$$F(J
-$@#3(J. $@F|K\8l$N07$$(J
-  3.1 $@MxMQ$9$k4A;z%3!<%I$N;XDj$N;EJ}(J
-  3.2 $@H>3Q%+%J$N07$$$K$D$$$F(J
-$@#4(J. $@F|K\8lF~NO5!G=(J
-  4.1 $@4pK\F~NO%b!<%I(J
-  4.2 $@4A;zF~NO$H1Q;zJQ49(J
-  4.3 $@%m!<%^;z2>L>JQ49(J
-  4.4 $@%3!<%IF~NO(J
-  4.5 $@%+%JF~NO(J
-  4.6 $@8l6g$NEPO?(J
-$@IUO?#A!!%m!<%^;z2>L>JQ49I=(J
-$@IUO?#B(J  $@2>L>4A;zJQ49%W%m%0%i%`(J skksrch$@$K$D$$$F(J
-    B.1  skksrch$@$N35MW(J
-    B.2  $@<-=q%U%!%$%k$N;XDj$N;EJ}(J
-    B.3  $@8l6g$N8!:w!"EPO?$H%m!<%+%k<-=q%U%!%$%k$N99?7(J
-    B.4  $@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$K$D$$$F(J
-$@IUO?#C(J  $@%=!<%9$N4JC1$J@bL@(J
-$@IUO?#D(J  $@%3%s%Q%$%k%*%W%7%g%s$N@bL@(J
-$@IUO?#E(J  ari$@$G;H$&<gMW$JDj?tDj5A$N@bL@(J
-$@IUO?#F(J  $@%H%i%V%k%7%e!<%F%#%s%0(J
-$@IUO?#G(J  $@F|K\8l(J minix 1.5 for IBM-PC $@$G!V$"$j!)!W$r;H$&(J
-$@!v!v!v!v!v!v!v!v!v(J
+　【謝辞とお詫び】
+
+素晴らしいsimpleなエディタを公表された Anthony Howe 氏に感謝いたします。氏の
+AEがなければ「あり？」は存在しませんでした。また氏には、氏の素晴らしくsimple
+で美しいエディタAEを fatなものへと変えてしまったことについて、お詫びします。
+
+佐藤 雅彦 氏をはじめとする SKKの開発にたずさわった多くの皆様に感謝いたします。
+ SKKの辞書ファイルと skkservの検索アルゴリズムによって「あり？」は日本語入力
+が可能になりました。
+
+AEの存在を教えてくれた飯塚 剛 氏、また、SKK の使い方を教えてくれ「あり？」の
+日本語入力操作を評価してくれた黒田 清隆 氏に感謝いたします。
+
+「あり？」のαテストに参加してくださった日経MIX MINIX 会議の下記の方々に感謝
+いたします。(敬称略、順不同)
+
+	k.h@MIX、nemossan@MIX、kazushi@MIX、kneo@MIX、takamiti@MIX、
+	voit@MIX、jonney@MIX、utah.tsk@MIX、tshibata@MIX
 
 
-$@#1(J. $@35MW(J
+＊＊＊ 目次 ＊＊＊
+１. 概要
+  1.1 起動方法
+  1.2 環境変数
+  1.3 知られている不都合な点、Known bug
+２. 編集機能
+  2.1 カーソルの移動
+  2.2 文字の入力
+  2.3 文字の削除
+  2.4 内部バッファへの文字の複写
+  2.5 内部バッファに保存された文字の挿入
+  2.6 その他の機能
+  2.7 動作指定について
+３. 日本語の扱い
+  3.1 利用する漢字コードの指定の仕方
+  3.2 半角カナの扱いについて
+４. 日本語入力機能
+  4.1 基本入力モード
+  4.2 漢字入力と英字変換
+  4.3 ローマ字仮名変換
+  4.4 コード入力
+  4.5 カナ入力
+  4.6 語句の登録
+付録Ａ　ローマ字仮名変換表
+付録Ｂ  仮名漢字変換プログラム skksrchについて
+    B.1  skksrchの概要
+    B.2  辞書ファイルの指定の仕方
+    B.3  語句の検索、登録とローカル辞書ファイルの更新
+    B.4  インデックス付き辞書ファイルについて
+付録Ｃ  ソースの簡単な説明
+付録Ｄ  コンパイルオプションの説明
+付録Ｅ  ariで使う主要な定数定義の説明
+付録Ｆ  トラブルシューティング
+付録Ｇ  日本語 minix 1.5 for IBM-PC で「あり？」を使う
+＊＊＊＊＊＊＊＊＊
 
-$@!V$"$j!)!W$O!"(JAE(Anthony's Editor $@$"$k$$$O(J Ant's Editor)$@$r%Y!<%9$H$7$F:n$i$l(J
-$@$?%(%G%#%?$G!"0J2<$NJQ99$r2C$($F$$$^$9!#(J
 
-  (1) $@5!G=DI2C$H(J Key$@%P%$%s%I$NJQ99(J
-	$@!V$"$j!)!W$G$O(J AE $@$N;}$D5!G=$N$[$+!"$5$i$K$$$/$D$+$N5!G=$rDI2C$7$F$$(J
-	$@$^$9!#$J$*!"(JAE$@$N;}$D$$$/$D$N5!G=$K$D$$$F$O!"(Jkey $@%P%$%s%I$rJQ99$7$F$$(J
-	$@$^$9!#(J
-  (2) $@F|K\8lBP1~(J
-	$@!V$"$j!)!W$O%U%!%$%kF~=PNO$*$h$SI=<($K!"(JJIS$@%3!<%I!"(JEUC $@$"$k$$$O(J
-	SHIFT-JIS $@%3!<%I$r;HMQ$9$k$3$H$,$G$-$^$9!#(J
-  (3) $@F|K\8lF~NO5!G=(J
-	$@!V$"$j!)!W$O(J SKK$@Iw%$%s%?!<%U%'%#%9$NF|K\8lF~NO5!G=$,$"$j$^$9!#(J
+１. 概要
 
-$@!V$"$j!)!W$O!"8=:_!"0J2<$N(JOS$@$GF0:n$,3NG'$5$l$F$$$^$9!#(J
+「あり？」は、AE(Anthony's Editor あるいは Ant's Editor)をベースとして作られ
+たエディタで、以下の変更を加えています。
 
-           MINIX 1.5 for IBM-PC   ($@F|K\8l%3%s%=!<%kHG(J)
-           MINIX 1.5 for NEC PC98 (MIX$@HG(J)
-           MINIX 1.5 for NEC PC98 (ASCII$@HG(J)
-           MINIX 1.5 for Mac      ($@F|K\8l%3%s%=!<%kHG(J)
-           MINIX 1.5 for ATARI-ST ($@F|K\8l%3%s%=!<%kHG(J)
+  (1) 機能追加と Keyバインドの変更
+	「あり？」では AE の持つ機能のほか、さらにいくつかの機能を追加してい
+	ます。なお、AEの持ついくつの機能については、key バインドを変更してい
+	ます。
+  (2) 日本語対応
+	「あり？」はファイル入出力および表示に、JISコード、EUC あるいは
+	SHIFT-JIS コードを使用することができます。
+  (3) 日本語入力機能
+	「あり？」は SKK風インターフェィスの日本語入力機能があります。
+
+「あり？」は、現在、以下のOSで動作が確認されています。
+
+           MINIX 1.5 for IBM-PC   (日本語コンソール版)
+           MINIX 1.5 for NEC PC98 (MIX版)
+           MINIX 1.5 for NEC PC98 (ASCII版)
+           MINIX 1.5 for Mac      (日本語コンソール版)
+           MINIX 1.5 for ATARI-ST (日本語コンソール版)
            SunOS Release 4.0.3
            LUNA DT330: UNIOS-B 4.3BSD UNIX: 1.60 #1
            LUNA DT88k: 88000/mach-2.5-OS
 	   NEWS NWS 800: 4.2-BSD
 
-1.1 $@5/F0J}K!(J
-$@!V$"$j!)!W$N5/F0J}K!$O<!$N$H$*$j$G$9!#(J
+1.1 起動方法
+「あり？」の起動方法は次のとおりです。
 
 	$ ari file
 
-1.2 $@4D6-JQ?t(J
-$@!V$"$j!)!W$NF0:n$K1F6A$,$"$k4D6-JQ?t$O<!$N$H$*$j$G$9!#(J
+1.2 環境変数
+「あり？」の動作に影響がある環境変数は次のとおりです。
 
-	LINES           $@!D(J $@2hLL$N9T?t$r;XDj(J
-			     $@%G%U%)%k%HCM$O(J25$@$G!":GBg(J40$@$^$G;XDj2DG=(J
-	COLUMNS         $@!D(J $@2hLL$NI}!JJ8;z?t!K$r;XDj(J
-			     $@%G%U%)%k%HCM$O(J80$@$G!":GBg(J120$@$^$G;XDj2DG=(J
-	ARI_SETUP       $@!D(J $@F0:n;XDj(J
-			$@!!(J $@!J!X(J2.7 $@F0:n;XDj$K$D$$$F!Y;2>H!K(J
-	ARI_CODEDEF     $@!D(J $@%U%!%$%kF~=PNO$*$h$SI=<($N4A;z%3!<%I$r;XDj(J
-			$@!!(J $@!J!X(J3.1 $@MxMQ$9$k4A;z%3!<%I$N;XDj$N;EJ}!Y;2>H!K(J
-	ARI_KKF         $@!D(J $@MxMQ$9$k2>L>4A;zJQ49%W%m%0%i%`$r;XDj(J
-			$@!!(J $@!J!XIUO?#B(J $@2>L>4A;zJQ49%W%m%0%i%`$K$D$$$F!Y;2>H!K(J
-	LOCAL_SKK_JISYO $@!D(J $@;HMQ$9$k%m!<%+%k<-=q%U%!%$%k$r;XDj(J
-			   $@!J(Jstand alone$@%?%$%W$"$k$$$O2>L>4A;zJQ49%W%m%0%i%`(J
-			$@!!(J   $@$H$7$F(Jskksrch$@$rMQ$$$k>l9g!K(J
-	SKK_JISYO       $@!D(J $@;HMQ$9$k6&DL<-=q%U%!%$%k$r;XDj(J
-			   $@!J(Jstand alone$@%?%$%W$"$k$$$O2>L>4A;zJQ49%W%m%0%i%`(J
-			$@!!(J   $@$H$7$F(Jskksrch$@$rMQ$$$k>l9g!K(J
+	LINES           … 画面の行数を指定
+			     デフォルト値は25で、最大40まで指定可能
+	COLUMNS         … 画面の幅（文字数）を指定
+			     デフォルト値は80で、最大120まで指定可能
+	ARI_SETUP       … 動作指定
+			　 （『2.7 動作指定について』参照）
+	ARI_CODEDEF     … ファイル入出力および表示の漢字コードを指定
+			　 （『3.1 利用する漢字コードの指定の仕方』参照）
+	ARI_KKF         … 利用する仮名漢字変換プログラムを指定
+			　 （『付録Ｂ 仮名漢字変換プログラムについて』参照）
+	LOCAL_SKK_JISYO … 使用するローカル辞書ファイルを指定
+			   （stand aloneタイプあるいは仮名漢字変換プログラム
+			　   としてskksrchを用いる場合）
+	SKK_JISYO       … 使用する共通辞書ファイルを指定
+			   （stand aloneタイプあるいは仮名漢字変換プログラム
+			　   としてskksrchを用いる場合）
 
-	$@$3$NB>!"MxMQ$9$k2>L>4A;zJQ49%W%m%0%i%`$K0MB8$7$?4D6-JQ?t$b9MN8$9$kI,(J
-	$@MW$,$"$j$^$9!#(J
+	この他、利用する仮名漢字変換プログラムに依存した環境変数も考慮する必
+	要があります。
 
-1.3 $@CN$i$l$F$$$kITET9g$JE@!"@)8B;v9`!"(JKnown bug
+1.3 知られている不都合な点、制限事項、Known bug
 
-	$@!&07$($k:GBg$N%U%!%$%k%5%$%:$O(J16383byte$@$^$G!#(J
-	$@!&FbIt%P%C%U%!$KJ]B8$G$-$kJ8;z$O:GBg(J1023$@J8;z!J4A;z$O#1J8;z!K!#(J
-	$@!&%(%i!<$O$[$H$s$I$N>l9g%a%C%;!<%8$r$@$5$J$$!#(J
-	$@!&(JNULL$@J8;z$rF~NO$9$k$HI=<($,$*$+$7$/$J$k!#(J
-		$@!J(JNULL$@J8;z$+$i9TKv$^$GI=<($5$l$J$$!K(J
-	$@!&%+!<%=%k$N7A>u$O>o$K(J ASCII$@J8;z$NI}$G8GDj$5$l$F$*$j!"A43QJ8;z$d@)8f(J
-	$@!!J8;z$N>e$G$O!"%+!<%=%k$OJ8;z$N:8H>J,$K0LCV$9$k!#(J
-	$@!&%U%!%$%k$N@hF,$"$k$$$O:G8e$G$N%+!<%=%k0\F0$dJ8;z$NF~NO0LCV$,$*$+$7(J
-	$@!!$/$J$k$3$H$,$"$k!#(J
-	$@!&!JFC$K!K#19T$ND9$5$,2hLL$NI}$r1[$($?>l9g!"I=<($,Mp$l$k$3$H$,$"$k!#(J
-	$@!&C<Kv@)8f%3!<%I$O8GDj$7$?$b$N$r;H$C$F$$$k!#(J
-		$@!J(Jtermcap $@$O8+$F$$$J$$!K(J
-	$@!&2hLLFb$KI=<($5$l$kJ8;z?t$,B?$$>l9g!"%+!<%=%k$N0\F0Ey$,CY$/$J$k!#(J
-	$@!&2hLL$N%9%/%m!<%k$O$+$J$jCY$$!#(J
-	$@!&MxMQ$9$k(J SKK$@<-=q%U%!%$%k$O>:=g$K%=!<%H$5$l$F$$$kI,MW$,$"$k!#(J
-	$@!&Aw$j2>L>$D$-$N2>L>4A;zJQ49$O(JSKK$@$H$O<c43F0:n$,0[$J$k!#(J
-		$@!J!X(J4.2 $@4A;zF~NO$H1Q;zJQ49!Y;2>H(J)
-	$@!&EPO?$G$-$k8l6g$*$h$SFI$_$ND9$5$O2hLL$NI}$K1F6A$5$l$k!#(J
+	・扱える最大のファイルサイズは16383byteまで。
+	・内部バッファに保存できる文字は最大1023文字（漢字は１文字）。
+	・エラーはほとんどの場合メッセージをださない。
+	・NULL文字を入力すると表示がおかしくなる。
+		（NULL文字から行末まで表示されない）
+	・カーソルの形状は常に ASCII文字の幅で固定されており、全角文字や制御
+	　文字の上では、カーソルは文字の左半分に位置する。
+	・ファイルの先頭あるいは最後でのカーソル移動や文字の入力位置がおかし
+	　くなることがある。
+	・（特に）１行の長さが画面の幅を越えた場合、表示が乱れることがある。
+	・端末制御コードは固定したものを使っている。
+		（termcap は見ていない）
+	・画面内に表示される文字数が多い場合、カーソルの移動等が遅くなる。
+	・画面のスクロールはかなり遅い。
+	・利用する SKK辞書ファイルは昇順にソートされている必要がある。
+	・送り仮名つきの仮名漢字変換はSKKとは若干動作が異なる。
+		（『4.2 漢字入力と英字変換』参照)
+	・登録できる語句および読みの長さは画面の幅に影響される。
 
 
-$@#2(J. $@JT=85!G=(J
+２. 編集機能
 
-$@!V$"$j!)!W$,%5%]!<%H$7$F$$$k5!G=$O<!$N$H$*$j$G$9!#$3$3$G(J "[n]"$@$O#10J>e$N?tCM(J
-$@$r<($7!">JN,;~$NCM$O#1$G$9!#$J$*!V$"$j!)!W$G$O!J(JAE$@$HF1MM!K2~9T$b#1$D$NJ8;z$H(J
-$@$7$F07$$$^$9!#(J
+「あり？」がサポートしている機能は次のとおりです。ここで "[n]"は１以上の数値
+を示し、省略時の値は１です。なお「あり？」では（AEと同様）改行も１つの文字と
+して扱います。
 
-2.1 $@%+!<%=%k$N0\F0(J
+2.1 カーソルの移動
 
-	[n]h	$@:8$X#nJ8;z%+!<%=%k$r0\F0(J
-	[n]j	$@2<$X#nJ8;z%+!<%=%k$r0\F0(J
-	[n]k	$@>e$X#nJ8;z%+!<%=%k$r0\F0(J
-	[n]l	$@1&$X#nJ8;z%+!<%=%k$r0\F0(J
-	[n]w	$@1&$X#nC18l%+!<%=%k$r0\F0(J
-	[n]b	$@:8$X#nC18l%+!<%=%k$r0\F0(J
-	^F	$@#1%Z!<%8?J$`(J
-	^B	$@#1%Z!<%8La$k(J
-	0	$@9TF,$X%+!<%=%k$r0\F0(J
-	^	$@!J6uGr$r9MN8$7$F!K9T$N@hF,$X%+!<%=%k$r0\F0(J
-	$	$@9TKv$X%+!<%=%k$r0\F0(J
-	T	$@%U%!%$%k$N@hF,$X%+!<%=%k$r0\F0(J
-	B	$@%U%!%$%k$NKvHx$X%+!<%=%k$r0\F0(J
-	:[n]	$@#n9TL\$X%+!<%=%k$r0\F0(J([n]$@$O>JN,IT2D(J)
-	:$	$@%U%!%$%k$NKvHx$X%+!<%=%k$r0\F0(J
+	[n]h	左へｎ文字カーソルを移動
+	[n]j	下へｎ文字カーソルを移動
+	[n]k	上へｎ文字カーソルを移動
+	[n]l	右へｎ文字カーソルを移動
+	[n]w	右へｎ単語カーソルを移動
+	[n]b	左へｎ単語カーソルを移動
+	^F	１ページ進む
+	^B	１ページ戻る
+	0	行頭へカーソルを移動
+	^	（空白を考慮して）行の先頭へカーソルを移動
+	$	行末へカーソルを移動
+	T	ファイルの先頭へカーソルを移動
+	B	ファイルの末尾へカーソルを移動
+	:[n]	ｎ行目へカーソルを移動([n]は省略不可)
+	:$	ファイルの末尾へカーソルを移動
 
-2.2 $@J8;z$NF~NO(J
-$@$9$Y$F$NF~NO$O(J ESC$@%3!<%I(J (^[) $@$G=*N;$7$^$9!#F~NOCf$K$O(J BS(= ^H) $@$K$h$k8eB`$K(J
-$@$h$jD{@5$,2DG=$G$9!#$J$*B?$/$N%3%s%H%m!<%k%3!<%I$OD>@\F~NO$,2DG=$G$9$,!"(J ESC
-$@%3!<%I$J$IFCJL$N0UL#$r;}$D%3%s%H%m!<%k%3!<%I$O!"!X(J ASCII$@%b!<%I!Y$G(J ^V $@$KB3$$(J
-$@$FF~NO$7$^$9!#!J(J^V$@$O<!$NF~NO$r%(%9%1!<%W$9$k!K(J
+2.2 文字の入力
+すべての入力は ESCコード (^[) で終了します。入力中には BS(= ^H) による後退に
+より訂正が可能です。なお多くのコントロールコードは直接入力が可能ですが、 ESC
+コードなど特別の意味を持つコントロールコードは、『 ASCIIモード』で ^V に続い
+て入力します。（^Vは次の入力をエスケープする）
 
-	i	$@%+!<%=%k$ND>A0$KF~NO(J
-	O	$@%+!<%=%k$N$"$k9T$N>e$K?7$?$J9T$rF~NO(J
-	o	$@%+!<%=%k$N$"$k9T$N2<$K?7$?$J9T$rF~NO(J
-	I	$@9TF,$KF~NO(J
-	A	$@9TKv$KF~NO(J
+	i	カーソルの直前に入力
+	O	カーソルのある行の上に新たな行を入力
+	o	カーソルのある行の下に新たな行を入力
+	I	行頭に入力
+	A	行末に入力
 
-2.3 $@J8;z$N:o=|(J
-$@D>6a$K#1$D$N%3%^%s%I$G!":o=|$5$l$?0lO"$NJ8;z$O!"$=$NFbMF$,FbIt%P%C%U%!$KJ]B8(J
-$@$5$l$^$9!#(J
+2.3 文字の削除
+直近に１つのコマンドで、削除された一連の文字は、その内容が内部バッファに保存
+されます。
 
-	[n]x	$@%+!<%=%k$N$"$kJ8;z$r!J#n2s!K:o=|(J
-	[n]dl	$@%+!<%=%k$N$"$kJ8;z$r!J#n2s!K:o=|(J
-	[n]X	$@%+!<%=%k$N:8$NJ8;z$r!J#n2s!K:o=|(J
-	[n]dh	$@%+!<%=%k$N:8$NJ8;z$r!J#n2s!K:o=|(J
-	D	$@%+!<%=%k$+$i9TKv$^$G:o=|(J
-	[n]dd	$@%+!<%=%k$N$"$k9T$r!J#n2s!K:o=|(J
+	[n]x	カーソルのある文字を（ｎ回）削除
+	[n]dl	カーソルのある文字を（ｎ回）削除
+	[n]X	カーソルの左の文字を（ｎ回）削除
+	[n]dh	カーソルの左の文字を（ｎ回）削除
+	D	カーソルから行末まで削除
+	[n]dd	カーソルのある行を（ｎ回）削除
 
-2.4 $@FbIt%P%C%U%!$X$NJ8;z$NJ#<L(J
+2.4 内部バッファへの文字の複写
 
-	[n]Y	$@%+!<%=%k$N$"$k9T(J($@$+$i2<#n9T(J)$@$rFbIt%P%C%U%!$XJ#<L(J
-	[n]yy	$@%+!<%=%k$N$"$k9T(J($@$+$i2<#n9T(J)$@$rFbIt%P%C%U%!$XJ#<L(J
-	[n]yl	$@%+!<%=%k$N$"$kJ8;z(J($@$+$i1&#nJ8;z(J)$@$rFbIt%P%C%U%!$XJ#<L(J
-	[n]yh	$@%+!<%=%k$N:8#nJ8;z$rFbIt%P%C%U%!$XJ#<L(J
+	[n]Y	カーソルのある行(から下ｎ行)を内部バッファへ複写
+	[n]yy	カーソルのある行(から下ｎ行)を内部バッファへ複写
+	[n]yl	カーソルのある文字(から右ｎ文字)を内部バッファへ複写
+	[n]yh	カーソルの左ｎ文字を内部バッファへ複写
 
-2.5 $@FbIt%P%C%U%!$KJ]B8$5$l$?J8;z$NA^F~(J
+2.5 内部バッファに保存された文字の挿入
 
-	P	$@%+!<%=%k$ND>A0$KA^F~(J
-	p	$@%+!<%=%k$ND>8e$KA^F~(J
+	P	カーソルの直前に挿入
+	p	カーソルの直後に挿入
 
-2.6 $@$=$NB>$N5!G=(J
+2.6 その他の機能
 
-	^L	 $@2hLL$N:FI=<((J
-	^G	 $@JT=8Cf$N%U%!%$%kL>!"%+!<%=%k$N$"$k9THV9f$J$I$rJs9p(J
-	:r file	 $@;XDj$7$?%U%!%$%k$NFI$_9~$_!J(J'r'$@$N8e$K$O#1$D$N(Jspace$@$,I,MW!K(J
-	:w	 $@%U%!%$%k$X$N=q$-9~$_(J
-	:w file	 $@;XDj$7$?%U%!%$%k$X$N=q$-9~$_!J(J'r'$@$N8e$K$O#1$D$N(Jspace$@$,I,MW!K(J
-	:wq	 $@%U%!%$%k$X$N=q$-9~$_$HJT=8$N=*N;(J
-	:x	 $@%U%!%$%k$X$N=q$-9~$_$HJT=8$N=*N;(J
-	:q	 $@JT=8$N=*N;(J($@%U%!%$%k$NFbMF$,JQ99$5$l$F$$$k>l9g!"=*N;$G$-$J$$(J)
-	:q!	 $@JT=8$N6/@)=*N;(J
-	:version   $@%P!<%8%g%s$NI=<((J
-	:notice    $@Cx:n8"!"L5J]>Z!":FHRI[>r7o$NI=<((J
-	:toroku    $@8l6g$NEPO?!J!X(J4.6 $@8l6g$NEPO?!Y;2>H!K(J
-	:touroku   $@8l6g$NEPO?!J!X(J4.6 $@8l6g$NEPO?!Y;2>H!K(J
-	:set param $@F0:n;XDj!J(J'set'$@$N8e$K$O#1$D$N(Jspace$@$,I,MW!K(J
-	:set       $@F0:n;XDj>u67$NI=<((J
-	:set all   $@F0:n;XDj>u67$NI=<(!J(J'set'$@$N8e$K$O#1$D$N(Jspace$@$,I,MW!K(J
-	:setup     $@F0:n;XDj>u67$NI=<((J
+	^L	 画面の再表示
+	^G	 編集中のファイル名、カーソルのある行番号などを報告
+	:r file	 指定したファイルの読み込み（'r'の後には１つのspaceが必要）
+	:w	 ファイルへの書き込み
+	:w file	 指定したファイルへの書き込み（'r'の後には１つのspaceが必要）
+	:wq	 ファイルへの書き込みと編集の終了
+	:x	 ファイルへの書き込みと編集の終了
+	:q	 編集の終了(ファイルの内容が変更されている場合、終了できない)
+	:q!	 編集の強制終了
+	:version   バージョンの表示
+	:notice    著作権、無保証、再頒布条件の表示
+	:toroku    語句の登録（『4.6 語句の登録』参照）
+	:touroku   語句の登録（『4.6 語句の登録』参照）
+	:set param 動作指定（'set'の後には１つのspaceが必要）
+	:set       動作指定状況の表示
+	:set all   動作指定状況の表示（'set'の後には１つのspaceが必要）
+	:setup     動作指定状況の表示
 
-':set param'$@!"(J':set'$@!"(J':set all'$@$*$h$S(J':setup'$@%3%^%s%I$N>\:Y$K$D$$$F$O!X(J2.7
- $@F0:n;XDj$K$D$$$F!Y$r;2>H$/$@$5$$!#(J
+':set param'、':set'、':set all'および':setup'コマンドの詳細については『2.7
+ 動作指定について』を参照ください。
 
-2.7 $@F0:n;XDj$K$D$$$F(J
+2.7 動作指定について
 
-$@!V$"$j!)!W$G$O!"$=$NF0:n$r<!$N%Q%i%a!<%?$K$h$j;XDj$9$k$3$H$,$G$-$^$9!#(J
+「あり？」では、その動作を次のパラメータにより指定することができます。
 
-	codedef=ENE@J   $@4A;z%3!<%I$r;XDj(J
-	                $@!J!X(J3.1 $@MxMQ$9$k4A;z%3!<%I$N;XDj$N;EJ}!Y;2>H!K(J
-	tab=8           TAB$@NL$r;XDj(J
-	                notabexpand$@$r;XDj$7$F$$$k>l9g$O!"(JTAB$@NL$OC<Kv$N@_Dj$H(J
-	                $@0lCW$7$F$$$kI,MW$,$"$k(J
-	notabexpand     TAB$@$NE83+$rC<Kv$K$^$+$;$k(J
-	tabexpand       TAB$@$r(Jspase$@$KE83+$7$FC<Kv$KAw$k(J
-	nobreakfence    $@J8;zF~NO;~$K(JBS$@$GF~NO3+;O0LCV$r1[$($FJ8;z$r:o=|$G$-$J$$(J
-	breakfence      $@J8;zF~NO;~$K(JBS$@$GF~NO3+;O0LCV$r1[$($FJ8;z$r:o=|$G$-$k(J
-	noasciiindicate $@J8;zF~NO;~!X(JASCII$@%b!<%I!Y$G$O2hLL$K%b!<%II=<($r$7$J$$(J
-	asciiindicate   $@J8;zF~NO;~!X(JASCII$@%b!<%I!Y$G2hLL$K%b!<%II=<(!X!Z(Ja$@![!Y$r(J
-	                $@I=<($9$k(J
+	codedef=ENE@J   漢字コードを指定
+	                （『3.1 利用する漢字コードの指定の仕方』参照）
+	tab=8           TAB量を指定
+	                notabexpandを指定している場合は、TAB量は端末の設定と
+	                一致している必要がある
+	notabexpand     TABの展開を端末にまかせる
+	tabexpand       TABをspaseに展開して端末に送る
+	nobreakfence    文字入力時にBSで入力開始位置を越えて文字を削除できない
+	breakfence      文字入力時にBSで入力開始位置を越えて文字を削除できる
+	noasciiindicate 文字入力時『ASCIIモード』では画面にモード表示をしない
+	asciiindicate   文字入力時『ASCIIモード』で画面にモード表示『【a】』を
+	                表示する
 
-$@$3$l$i$N%Q%i%a!<%?$O!"4D6-JQ?t(J ARI_SETUP$@$K$h$C$F5/F0;~$K@_Dj$,2DG=$J$[$+!"(J
-':set param'$@%3%^%s%I$K$h$C$F$bJQ99$,2DG=$G$9!#8=:_$NF0:n;XDj>u67$O(J ':setup'$@%3(J
-$@%^%s%I$K$h$jI=<($5$;$k$3$H$,$G$-$^$9!#$J$*(J ':set'$@%3%^%s%I$"$k$$$O(J ':set all'
-$@%3%^%s%I$G$bF1MM$K8=:_$NF0:n;XDj>u67$rI=<($7$^$9!#(J
+これらのパラメータは、環境変数 ARI_SETUPによって起動時に設定が可能なほか、
+':set param'コマンドによっても変更が可能です。現在の動作指定状況は ':setup'コ
+マンドにより表示させることができます。なお ':set'コマンドあるいは ':set all'
+コマンドでも同様に現在の動作指定状況を表示します。
 
-$@4D6-JQ?t(J ARI_SETUP$@$K$h$kF0:n;XDj$G$O!"$=$NCM$H$7$F%Q%i%a!<%?$N$_$r@_Dj$7$^$9!#(J
-$@$3$3$G%Q%i%a!<%?$O(J '|'$@$^$?$O(J ','$@$r$O$5$s$GJ#?t$rF1;~$K;XDj$9$k$3$H$b2DG=$G$9!#(J
-$@!V$"$j!)!W$N%G%U%)%k%HF0:n;XDj$O0J2<$N@_Dj$HF1Ey$G$9!#(J
+環境変数 ARI_SETUPによる動作指定では、その値としてパラメータのみを設定します。
+ここでパラメータは '|'または ','をはさんで複数を同時に指定することも可能です。
+「あり？」のデフォルト動作指定は以下の設定と同等です。
 
   $ ARI_SETUP='codedef=ENE@J | tab=8 | notabexpand'
   $ ARI_SETUP="$ARI_SETUP |nobreakfence|noasciiindicate"
   $ export ARI_SETUP
 
-$@$J$*4D6-JQ?t(J ARI_CODEDEF$@$K$h$k4A;z%3!<%I;XDj$O!"4D6-JQ?t(J ARI_SETUP$@$K$h$k;XDj(J
-$@$h$j$bM%@h$5$l$^$9!#!J!X(J3.1 $@MxMQ$9$k4A;z%3!<%I$N;XDj$N;EJ}!Y;2>H!K(J
+なお環境変数 ARI_CODEDEFによる漢字コード指定は、環境変数 ARI_SETUPによる指定
+よりも優先されます。（『3.1 利用する漢字コードの指定の仕方』参照）
 
-':set param'$@%3%^%s%I$K$h$kF0:n;XDj$G$O!"(J:set$@$H$D$E$/#1$D$N(J space$@$N8e$K(J param
-$@$H$7$F%Q%i%a!<%?$r;XDj$7$^$9!#Nc$($P%Q%i%a!<%?(J asciiindicate$@$r@_Dj$9$k$K$O<!(J
-$@$N$h$&$K<B9T$7$^$9!#(J
+':set param'コマンドによる動作指定では、:setとつづく１つの spaceの後に param
+としてパラメータを指定します。例えばパラメータ asciiindicateを設定するには次
+のように実行します。
 
   :set asciiindicate
 
 
-$@#3(J. $@F|K\8l$N07$$(J
+３. 日本語の扱い
 
-3.1 $@MxMQ$9$k4A;z%3!<%I$N;XDj$N;EJ}(J
+3.1 利用する漢字コードの指定の仕方
 
-$@!V$"$j!)!W$G$O4A;z%3!<%I$H$7$F(J JIS$@%3!<%I!"(J EUC$@$*$h$S(J SHIFT-JIS$@%3!<%I$r07$&$3(J
-$@$H$,$G$-$^$9!#(J
-$@%G%U%)%k%H$G$O%U%!%$%kF~=PNO$*$h$SI=<($H$b(J EUC$@$G$9$,!";HMQ$9$k%3!<%I$OF0:n;X(J
-$@Dj%Q%i%a!<%?(J codedef$@$K$h$j!"%U%!%$%kF~=PNO$HI=<($rJL!9$K;XDj$G$-$^$9!#(J
+「あり？」では漢字コードとして JISコード、 EUCおよび SHIFT-JISコードを扱うこ
+とができます。
+デフォルトではファイル入出力および表示とも EUCですが、使用するコードは動作指
+定パラメータ codedefにより、ファイル入出力と表示を別々に指定できます。
 
-$@F0:n;XDj%Q%i%a!<%?(J codedef$@$O#5$D$N(J ASCII$@J8;z$+$i$J$kJ8;zNs$G!"#1J8;zL\$G%U%!(J
-$@%$%kF~=PNO%3!<%I$r!"#3J8;zL\$GI=<(%3!<%I$r;XDj$7$^$9!#(J
-$@3FJ8;z$G$N;XDj$N;EJ}$O<!$N$H$*$j$G$9!#(J
+動作指定パラメータ codedefは５つの ASCII文字からなる文字列で、１文字目でファ
+イル入出力コードを、３文字目で表示コードを指定します。
+各文字での指定の仕方は次のとおりです。
 
-	JIS$@%3!<%I(J		'J'
-	EUC			'E'$@!J$"$k$$$OL58z$JJ8;z!K(J
-	SHIFT-JIS$@%3!<%I(J		'S'
+	JISコード		'J'
+	EUC			'E'（あるいは無効な文字）
+	SHIFT-JISコード		'S'
 
-$@F0:n;XDj%Q%i%a!<%?(J codedef$@$N#2J8;zL\$O!"8=:_%m!<%^;z2>L>JQ49$NF0:n;XDj$KMQ$$(J
-$@$i$l$F$$$^$9!J!X(J4.3 $@%m!<%^;z2>L>JQ49!Y;2>H!K!#$^$?%3!<%I;XDj$N$?$a$NJ8;z(J 'N'
-$@$O>-Mh$N3HD%$N$?$a$K%j%6!<%V$5$l$F$$$^$9!#(J
-$@$3$l$i$N@_Dj>u67$O(J ':setup'$@%3%^%s%I!J$"$k$$$O(J ':set' $@$^$?$O(J ':set all'$@%3%^%s(J
-$@%I!K$N$[$+(J '^G'$@%3%^%s%I$G$bCN$k$3$H$,$G$-$^$9!#(J
+動作指定パラメータ codedefの２文字目は、現在ローマ字仮名変換の動作指定に用い
+られています（『4.3 ローマ字仮名変換』参照）。またコード指定のための文字 'N'
+は将来の拡張のためにリザーブされています。
+これらの設定状況は ':setup'コマンド（あるいは ':set' または ':set all'コマン
+ド）のほか '^G'コマンドでも知ることができます。
 
-$@$5$i$K#4J8;zL\$*$h$S#5J8;zL\$G$O!"(J JIS$@%3!<%I$G$N4A;z%3!<%I%;%C%HA*Br$*$h$S(J
- ASCII$@%3!<%I%;%C%HA*Br$N$?$a$N%(%9%1!<%W%7!<%1%s%9$GMQ$$$kJ8;z$r;XDj$7$^$9!#(J
-$@#4J8;zL\$O4A;z%3!<%I%;%C%HA*Br$N$5$$$KMQ$$$kJ8;z$G%G%U%)%k%HCM$O(J'@' $@!"$^$?#5(J
-$@J8;zL\$O(J ASCII$@%3!<%I%;%C%HA*Br$N$5$$$KMQ$$$kJ8;z$G%G%U%)%k%HCM$O(J'J' $@$G$9!#(J
-$@%G%U%)%k%HCM$rMQ$$$?%3!<%I%;%C%HA*Br$N$?$a$N%(%9%1!<%W%7!<%1%s%9$O!"0J2<$N$h(J
-$@$&$K$J$j$^$9!#(J
+さらに４文字目および５文字目では、 JISコードでの漢字コードセット選択および
+ ASCIIコードセット選択のためのエスケープシーケンスで用いる文字を指定します。
+４文字目は漢字コードセット選択のさいに用いる文字でデフォルト値は'@' 、また５
+文字目は ASCIIコードセット選択のさいに用いる文字でデフォルト値は'J' です。
+デフォルト値を用いたコードセット選択のためのエスケープシーケンスは、以下のよ
+うになります。
 
-	$@4A;z%3!<%I%;%C%HA*Br(J	ESC $ @
-	ASCII $@%3!<%I%;%C%HA*Br(J	ESC ( J
+	漢字コードセット選択	ESC $ @
+	ASCII コードセット選択	ESC ( J
 
-$@F0:n;XDj%Q%i%a!<%?(J codedef$@$O!"4D6-JQ?t(J ARI_SETUP$@$"$k$$$O(J ':set param'$@%3%^%s%I(J
-$@$K$h$C$F@_Dj$9$k$3$H$,$G$-$^$9!#!J!X(J2.7 $@F0:n;XDj$K$D$$$F!Y;2>H!K(J
+動作指定パラメータ codedefは、環境変数 ARI_SETUPあるいは ':set param'コマンド
+によって設定することができます。（『2.7 動作指定について』参照）
 
-$@$^$?4D6-JQ?t(J ARI_CODEDEF$@$K$h$C$F$b@_Dj$9$k$3$H$,2DG=$G!"$3$N>l9g$O%Q%i%a!<%?(J
-$@$NCM$H$J$kJ8;zNs$N$_;XDj$7$^$9!#4D6-JQ?t(J ARI_CODEDEF$@$K$h$k@_Dj$O!"4D6-JQ?t(J
-ARI_SETUP$@$K$h$k@_Dj$N$"$H$G9T$o$l$^$9!#(J
+また環境変数 ARI_CODEDEFによっても設定することが可能で、この場合はパラメータ
+の値となる文字列のみ指定します。環境変数 ARI_CODEDEFによる設定は、環境変数
+ARI_SETUPによる設定のあとで行われます。
 
-$@%Q%i%a!<%?$r@_Dj$9$k>l9g$O!"<!$NJ8;z$bMxMQ$9$k$3$H$,$G$-$^$9!#(J
+パラメータを設定する場合は、次の文字も利用することができます。
 
-	$@%G%U%)%k%HCM7Q>5(J	'-'
-	$@D>A0CM7Q>5(J		'!'
+	デフォルト値継承	'-'
+	直前値継承		'!'
 
-$@$J$*%Q%i%a!<%?$r@_Dj$9$k:]$K!";XDj$7$?J8;zNs$,#5J8;z0J2<$ND9$5$G$"$l$P!"B-$j(J
-$@$J$$ItJ,$OD>A0CM$rE,MQ$7$^$9!#(J
+なおパラメータを設定する際に、指定した文字列が５文字以下の長さであれば、足り
+ない部分は直前値を適用します。
 
-$@Nc$($P!"4D6-JQ?t(J ARI_CODEDEF$@$NCM$,(J "--S"$@$G$"$l$P!"%U%!%$%kF~=PNO$O%G%U%)%k%H(J
-$@CM$r7Q>5$7!"I=<($K$O(J SHIFT-JIS$@%3!<%I$r;XDj$7!"4A;z%3!<%I%;%C%HA*Br$*$h$S(J
-ASCII$@%3!<%I%;%C%HA*Br$K$O!"!J;XDj$5$l$F$$$l$P!K4D6-JQ?t(J ARI_SETUP$@$G@_Dj$5$l(J
-$@$?D>A0CM$r7Q>5$9$k$3$H$K$J$j$^$9!#(J
+例えば、環境変数 ARI_CODEDEFの値が "--S"であれば、ファイル入出力はデフォルト
+値を継承し、表示には SHIFT-JISコードを指定し、漢字コードセット選択および
+ASCIIコードセット選択には、（指定されていれば）環境変数 ARI_SETUPで設定され
+た直前値を継承することになります。
 
-3.2 $@H>3Q%+%J$N07$$$K$D$$$F(J
+3.2 半角カナの扱いについて
 
-$@!V$"$j!)!W$G$O!"$$$o$f$kH>3Q%+%J$r%U%!%$%kF~=PNO!"I=<($H$b07$&$3$H$O2DG=$G$9!#(J
-JIS$@%3!<%I$*$h$S(J EUC$@$N>l9g$G$O!"H>3Q%+%J$O@)8fJ8;z(J SO(^N) $@$H(J SI(^O) $@$G$O$5$`$3(J
-$@$G;XDj$7$^$9!#$J$*$3$N$H$-(JMSB$@$O(J0$@$H$7$F!"$9$J$o$A(J7bit$@C10L7O$H$7$F07$$$^$9!#(J
+「あり？」では、いわゆる半角カナをファイル入出力、表示とも扱うことは可能です。
+JISコードおよび EUCの場合では、半角カナは制御文字 SO(^N) と SI(^O) ではさむこ
+で指定します。なおこのときMSBは0として、すなわち7bit単位系として扱います。
 
 
-$@#4(J. $@F|K\8lF~NO5!G=(J
+４. 日本語入力機能
 
-$@!V$"$j!)!W$G$O(J SKK$@Iw$N!J$7$+$7$+$J$j8BDj$5$l$?!K%$%s%?!<%U%'%#%9$GF|K\8lF~NO(J
-$@5!G=$rMxMQ$9$k$3$H$,$G$-$^$9!#$G$-$k$+$.$j(J SKK$@$G;HMQ$5$l$F$$$kMQ8l$K=`$8$F@b(J
-$@L@$9$k$3$H$H$7$^$9!#(J
+「あり？」では SKK風の（しかしかなり限定された）インターフェィスで日本語入力
+機能を利用することができます。できるかぎり SKKで使用されている用語に準じて説
+明することとします。
 
-4.1 $@4pK\F~NO%b!<%I(J
-$@J8;z$NF~NO$G$O$D$.$N4pK\E*$J#4$D$N%b!<%I$,$"$j$^$9!#(J
+4.1 基本入力モード
+文字の入力ではつぎの基本的な４つのモードがあります。
 
-	$@!X(JASCII$@%b!<%I!Y(J	ASCII$@J8;z$NF~NO(J
-			$@!!!J2hLL$K%b!<%II=<($O$G$J$$!K(J
-	$@!X$+$J%b!<%I!Y(J	$@$R$i$,$J$*$h$S4A;z$NF~NO(J
-			$@!!!J2hLL:82<$K%b!<%II=<(!X!Z$"![!Y$,I=<($5$l$k!K(J
-	$@!X%+%J%b!<%I!Y(J	$@%+%?%+%J$*$h$S4A;z$NF~NO(J
-			$@!!!J2hLL:82<$K%b!<%II=<(!X!Z%"![!Y$,I=<($5$l$k!K(J
-	$@!XA41Q%b!<%I!Y(J	$@A43Q1QJ8;z$NF~NO(J
-			$@!!!J2hLL:82<$K%b!<%II=<(!X!Z#A![!Y$,I=<($5$l$k!K(J
+	『ASCIIモード』	ASCII文字の入力
+			　（画面にモード表示はでない）
+	『かなモード』	ひらがなおよび漢字の入力
+			　（画面左下にモード表示『【あ】』が表示される）
+	『カナモード』	カタカナおよび漢字の入力
+			　（画面左下にモード表示『【ア】』が表示される）
+	『全英モード』	全角英文字の入力
+			　（画面左下にモード表示『【Ａ】』が表示される）
 
-$@F0:n;XDj%Q%i%a!<%?$K(J'asciiindicate'$@$,@_Dj$5$l$F$$$k>l9g$K$O!"!X(JASCII$@%b!<%I!Y(J
-$@;~$K2hLL:82<$K%b!<%II=<(!X!Z(Ja$@![!Y$,I=<($5$l$^$9!#(J
-$@!J!X(J2.7 $@F0:n;XDj$K$D$$$F!Y;2>H!K(J
+動作指定パラメータに'asciiindicate'が設定されている場合には、『ASCIIモード』
+時に画面左下にモード表示『【a】』が表示されます。
+（『2.7 動作指定について』参照）
 
-$@%b!<%I$N@Z$jBX$($O<!$N$H$*$j$G$9!#(J
+モードの切り替えは次のとおりです。
 
-$@!!(J'^J' $@!X(JASCII$@%b!<%I!Y!!$+$i!!!X$+$J%b!<%I!Y!J$"$k$$$O!X%+%J%b!<%I!Y!K(J
-$@!!(J'l'$@!!!X$+$J%b!<%I!Y!J$"$k$$$O!X%+%J%b!<%I!Y!K!!$+$i!!!X(J ASCII$@%b!<%I!Y(J
-$@!!(J'q'$@!!!X$+$J%b!<%I!Y!!$H!!!X%+%J%b!<%I!Y!!$N@Z$jBX$((J
-$@!!(J'L'$@!!!X$+$J%b!<%I!Y!J$"$k$$$O!X%+%J%b!<%I!Y!K!!$+$i!!!XA41Q%b!<%I!Y(J
-$@!!(J'^J' $@!XA41Q%b!<%I!Y!!$+$i!!!X$+$J%b!<%I!Y!J$"$k$$$O!X%+%J%b!<%I!Y!K(J
+　'^J' 『ASCIIモード』　から　『かなモード』（あるいは『カナモード』）
+　'l'　『かなモード』（あるいは『カナモード』）　から　『 ASCIIモード』
+　'q'　『かなモード』　と　『カナモード』　の切り替え
+　'L'　『かなモード』（あるいは『カナモード』）　から　『全英モード』
+　'^J' 『全英モード』　から　『かなモード』（あるいは『カナモード』）
 
-                   ASCII$@%b!<%I(J
+                   ASCIIモード
 
-                 ^J $@"-(J    $@",(J l
+                 ^J ↓    ↑ l
 
-      $@!!!!$+$J!?%+%J%b!<%I(J($@!X$+$J%b!<%I!Y!X%+%J%b!<%I!Y$O(J'q'$@$GF~$l49$((J)
+      　　かな／カナモード(『かなモード』『カナモード』は'q'で入れ換え)
 
-                  L $@"-(J    $@",(J ^J
+                  L ↓    ↑ ^J
 
-                   $@A41Q%b!<%I(J
+                   全英モード
 
-$@!X$+$J%b!<%I!Y$*$h$S!X%+%J%b!<%I!Y$G$O!"1Q>.J8;z$NF~NO$K$h$j%m!<%^;z2>L>JQ49(J
-$@$r9T$$$^$9!#(J
-$@!!!J1QBgJ8;z$rF~NO$9$k$H4A;zF~NO$N$?$a$N!X4A;zJQ49%b!<%I!Y$K0\9T$9$k!K(J
+『かなモード』および『カナモード』では、英小文字の入力によりローマ字仮名変換
+を行います。
+　（英大文字を入力すると漢字入力のための『漢字変換モード』に移行する）
 
-$@$J$*!"J8;z$NF~NO$K:]$75/F0;~$N=i4|>uBV$O!X(JASCII$@%b!<%I!Y$K@_Dj$5$l$F$$$^$9$,!"(J
-$@F~NOKh$K:F=i4|2=$5$l$k$3$H$O$"$j$^$;$s!#A02sF~NO=*N;;~$N%b!<%I$r7QB3$7$^$9!#(J
+なお、文字の入力に際し起動時の初期状態は『ASCIIモード』に設定されていますが、
+入力毎に再初期化されることはありません。前回入力終了時のモードを継続します。
 
-4.2 $@4A;zF~NO$H1Q;zJQ49(J
-$@4A;z$NF~NO$O!"!X$+$J%b!<%I!Y$"$k$$$O!X%+%J%b!<%I!Y$G!"$=$NFI$_$H$J$k%m!<%^;z(J
-$@$N:G=i$N#1J8;z$r1QBgJ8;z$G!";D$j$r1Q>.J8;z$GF~NO$9$k$3$H$G9T$$$^$9!#$?$H$($P(J
- "$@4A;z(J" $@$N$?$a$K$O(J "Kanji"  $@$HF~NO$7$^$9!#(J
-$@$J$*Aw$j2>L>$,$"$k>l9g$K$O!"4A;zItJ,$N:G=i$N#1J8;z$H!"Aw$j2>L>ItJ,$N:G=i$N#1(J
-$@J8;z$r1QBgJ8;z$H$7$^$9!#$?$H$($P(J "$@F0$/(J" $@$O(J "UgoKu"$@!"(J "$@;H$C$?(J" $@$O(J "TsukaTta"
-$@$HF~NO$7$^$9!#(J
+4.2 漢字入力と英字変換
+漢字の入力は、『かなモード』あるいは『カナモード』で、その読みとなるローマ字
+の最初の１文字を英大文字で、残りを英小文字で入力することで行います。たとえば
+ "漢字" のためには "Kanji"  と入力します。
+なお送り仮名がある場合には、漢字部分の最初の１文字と、送り仮名部分の最初の１
+文字を英大文字とします。たとえば "動く" は "UgoKu"、 "使った" は "TsukaTta"
+と入力します。
 
-$@!X$+$J%b!<%I!Y$"$k$$$O!X%+%J%b!<%I!Y$G1QBgJ8;z$rF~NO$9$k$H!X4A;zJQ49%b!<%I!Y(J
-$@$K0\9T$7$^$9!#$3$N$H$-1QBgJ8;z$rF~NO$7$?0LCV$K$O(J'$@"&(J'$@$,I=<($5$l!X4A;zJQ49%b!<(J
-$@%I!Y$G$"$k$3$H$r<($7$^$9!#$D$E$$$FF~NO$5$l$k1Q>.J8;z$K$h$C$F!X4A;zJQ49%b!<%I!Y(J
-$@$G$N%m!<%^;z2>L>JQ49$,9T$o$l$^$9!#!J(JBS = '^H' $@$K$h$k8eB`$G$ND{@5$bM-8z$G$9!K(J
-$@$J$*!"!X4A;zJQ49%b!<%I!Y$G$N%m!<%^;z2>L>JQ49$O>o$K$R$i$,$J$G9T$$$^$9!#(J
+『かなモード』あるいは『カナモード』で英大文字を入力すると『漢字変換モード』
+に移行します。このとき英大文字を入力した位置には'▽'が表示され『漢字変換モー
+ド』であることを示します。つづいて入力される英小文字によって『漢字変換モード』
+でのローマ字仮名変換が行われます。（BS = '^H' による後退での訂正も有効です）
+なお、『漢字変換モード』でのローマ字仮名変換は常にひらがなで行います。
 
-$@I,MW$JFI$_$rF~NO$7$?8e(J space$@$rF~NO$9$k$H!"JQ498uJd$,$"$l$P!X4A;zA*Br%b!<%I!Y(J
-$@$K0\9T$7$^$9!#(J
-$@!JJQ498uJd$,$J$1$l$P!"$R$i$,$J$N$^$^!X$+$J%b!<%I!Y$^$?$O!X%+%J%b!<%I!Y$KLa$k!K(J
+必要な読みを入力した後 spaceを入力すると、変換候補があれば『漢字選択モード』
+に移行します。
+（変換候補がなければ、ひらがなのまま『かなモード』または『カナモード』に戻る）
 
-$@!X4A;zA*Br%b!<%I!Y$K0\9T$9$k$H!"$R$i$,$J$NItJ,$,JQ498uJd$N4A;z$HF~$lJQ$k$HF1(J
-$@;~$K!"(J'$@"&(J'$@$K$+$($F(J'$@"'(J'$@$,I=<($5$l$^$9!#(J
-$@0J2<(J space$@$G<!8uJd$r!"$^$?(J 'x'$@$GA08uJd$rA*Br$7$^$9!#8uJd$,$"$k$"$$$@$O?7$7$$(J
-$@8uJd$,F~$lJQ$C$FI=<($5$l$^$9!#(Jspace$@$"$k$$$O(J 'x'$@0J30$NF~NO$K$h$j!X4A;zA*Br%b!<(J
-$@%I!Y$O=*N;$7JQ49$O3NDj$7$^$9!#!J(J'^J'$@$r=|$$$FF~NO$O%F%-%9%H$KH?1G$5$l$k!K(J
+『漢字選択モード』に移行すると、ひらがなの部分が変換候補の漢字と入れ変ると同
+時に、'▽'にかえて'▼'が表示されます。
+以下 spaceで次候補を、また 'x'で前候補を選択します。候補があるあいだは新しい
+候補が入れ変って表示されます。spaceあるいは 'x'以外の入力により『漢字選択モー
+ド』は終了し変換は確定します。（'^J'を除いて入力はテキストに反映される）
 
-$@$^$?<!8uJd$"$k$$$OA08uJd$,$J$/$J$C$F$b!X4A;zA*Br%b!<%I!Y$O=*N;$7$^$9$,!"$3$N(J
-$@>l9g$O!"8uJd$NItJ,$,85$N$R$i$,$J$KLa$j!"F1;~$K(J'$@"'(J'$@$NI=<($b(J'$@"&(J'$@$KLa$j$^$9!#(J
-$@!J!X4A;zJQ49%b!<%I!Y$KLa$k!K(J
+また次候補あるいは前候補がなくなっても『漢字選択モード』は終了しますが、この
+場合は、候補の部分が元のひらがなに戻り、同時に'▼'の表示も'▽'に戻ります。
+（『漢字変換モード』に戻る）
 
-$@$J$*!"(JSKK$@$H0[$J$j!V$"$j!)!W$G$OAw$j2>L>$,$"$k>l9g$G$b(Jspace$@$,F~NO$5$l$k$^$G(J
-$@!X4A;zA*Br%b!<%I!Y$K$O0\9T$7$^$;$s!#I,$:(J space$@$K$h$k8uJdA*BrA`:n$,I,MW$G$9!#(J
+なお、SKKと異なり「あり？」では送り仮名がある場合でもspaceが入力されるまで
+『漢字選択モード』には移行しません。必ず spaceによる候補選択操作が必要です。
 
-$@!X4A;zJQ49%b!<%I!Y$^$?$O!X4A;zA*Br%b!<%I!Y$+$i!X$+$J%b!<%I!Y$"$k$$$O!X%+%J%b(J
-$@!<%I!Y$XD>@\$b$I$k$?$a$K$O!"(J'^J'$@$rF~NO$7$^$9!#5-9f!"?t;z$J$I$rF~NO$7$F$b!X$+(J
-$@$J%b!<%I!Y$"$k$$$O!X%+%J%b!<%I!Y$KD>@\$b$I$j$^$9$,!"$3$N>l9g!"F~NO$O%F%-%9%H(J
-$@$KH?1G$5$l$^$9!#(J
+『漢字変換モード』または『漢字選択モード』から『かなモード』あるいは『カナモ
+ード』へ直接もどるためには、'^J'を入力します。記号、数字などを入力しても『か
+なモード』あるいは『カナモード』に直接もどりますが、この場合、入力はテキスト
+に反映されます。
 
-$@1Q;zJQ49$r9T$&>l9g$O!"1QBgJ8;z$G;O$^$k%m!<%^;z$NBe$j$K(J '/'$@$H$D$E$/1Q;z$rF~NO(J
-$@$7$^$9!#JQ49$N;EJ}$O4A;zJQ49$HF1MM$G!"1Q;z$NItJ,$,JQ498uJd$HF~$lJQ$C$FI=<($5(J
-$@$l$^$9!#$J$*1Q;zJQ49$G$O5-9f$bJQ49BP>]$H$9$k$3$H$,2DG=$G$9!#(J
+英字変換を行う場合は、英大文字で始まるローマ字の代りに '/'とつづく英字を入力
+します。変換の仕方は漢字変換と同様で、英字の部分が変換候補と入れ変って表示さ
+れます。なお英字変換では記号も変換対象とすることが可能です。
 
-$@!V$"$j!)!W$G$O$$$^$N$H$3$mJQ498uJd$N0lMwI=<($N5!G=$O%5%]!<%H$7$F$$$^$;$s!#(J
+「あり？」ではいまのところ変換候補の一覧表示の機能はサポートしていません。
 
-4.3 $@%m!<%^;z2>L>JQ49(J
-$@!V$"$j!)!W$N%m!<%^;z2>L>JQ49I=$OIUO?#A$K<($7$^$9!#(J
+4.3 ローマ字仮名変換
+「あり？」のローマ字仮名変換表は付録Ａに示します。
 
-$@2>L>$N>.J8;z$O!X(Jxa$@!Y"*!X$!!Y!"!X(Jxya$@!Y"*!X$c!Y$N$h$&$K!X(Jx$@!Y$rIU$1$k$3$H$GF~NO(J
-$@$7$^$9!#$^$?0J2<$NJQ49$r9T$$$^$9!#(J
+仮名の小文字は『xa』→『ぁ』、『xya』→『ゃ』のように『x』を付けることで入力
+します。また以下の変換を行います。
 
- $@!X$s!Y(J $@!D(J $@!X(Jn'$@!Y!"(J $@$^$?$OD>8e$K!J!X(Jy$@!Y(J $@0J30$N!K;R2;$"$k$$$O?t;z!"5-9fN`$,(J
-	$@!!!!B3$/$H$-$O(J $@!X(Jn$@!Y$@$1$GF~NO$,2DG=(J
-	    $@$5$i$K4D6-JQ?t(J ARI_CODEDEF$@$N#2J8;zL\$r(J 'n'$@$K;XDj$7$?>l9g$K$O(J
-	   $@!X(Jnn$@!Y$G$bF~NO$,2DG=$H$J$k!J%G%U%)%k%H$G$OIT2D!K(J
- $@!X$C!Y(J $@!D(J $@!J!X(Jn$@!Y0J30$N!K;R2;$rB3$1$F$bF~NO2DG=(J
- $@!X!<!Y(J $@!D(J $@!X(J-$@!Y$GF~NO(J
+ 『ん』 … 『n'』、 または直後に（『y』 以外の）子音あるいは数字、記号類が
+	　　続くときは 『n』だけで入力が可能
+	    さらに環境変数 ARI_CODEDEFの２文字目を 'n'に指定した場合には
+	   『nn』でも入力が可能となる（デフォルトでは不可）
+ 『っ』 … （『n』以外の）子音を続けても入力可能
+ 『ー』 … 『-』で入力
 
-$@?t;z!"5-9f$NJQ49$O<!$N$H$*$j$G$9(J
-$@!J<($5$l$F$$$J$$5-9f$OJQ49$5$l$:!"$=$N$^$^F~NO$5$l$k!K(J
+数字、記号の変換は次のとおりです
+（示されていない記号は変換されず、そのまま入力される）
 
-    $@?t;z(J  $@"*(J  $@#0!A#9(J
-     ,    $@"*(J    $@!"(J
-     .    $@"*(J    $@!#(J
-     ?    $@"*(J    $@!)(J
-     !    $@"*(J    $@!*(J
-     [    $@"*(J    $@!V(J
-     ]    $@"*(J    $@!W(J
-     {    $@"*(J    $@!P(J
-     }    $@"*(J    $@!Q(J
-     <    $@"*(J    $@!c(J
-     >    $@"*(J    $@!d(J
-     -    $@"*(J    $@!<(J
+    数字  →  ０〜９
+     ,    →    、
+     .    →    。
+     ?    →    ？
+     !    →    ！
+     [    →    「
+     ]    →    」
+     {    →    ｛
+     }    →    ｝
+     <    →    ＜
+     >    →    ＞
+     -    →    ー
 
-$@!J$5$i$K!"!X(Jz$@!Y$KB3$$$F5-9f$rF~NO$7$?>l9g!"0J2<$NJQ49$r9T$&!K(J
+（さらに、『z』に続いて記号を入力した場合、以下の変換を行う）
 
-     <    $@"*(J    $@!e(J
-     >    $@"*(J    $@!f(J
-     [    $@"*(J    $@!X(J
-     ]    $@"*(J    $@!Y(J
-     -    $@"*(J    $@!A(J
-     /    $@"*(J    $@!&(J
-     .    $@"*(J    $@!D(J
-     ,    $@"*(J    $@!E(J
+     <    →    ≦
+     >    →    ≧
+     [    →    『
+     ]    →    』
+     -    →    〜
+     /    →    ・
+     .    →    …
+     ,    →    ‥
 
-4.4 $@%3!<%IF~NO(J
-$@!V$"$j!)!W$G$O!"(J JIS$@%3!<%I$"$k$$$O(J EUC$@$K$h$k4A;z$ND>@\%3!<%IF~NO$r9T$&$3$H$,(J
-$@$G$-$^$9!#(J
-$@!X$+$J%b!<%I!Y$"$k$$$O!X%+%J%b!<%I!Y$G(J '\'(back slash)$@$rF~NO$9$k$H!"2hLL:82<(J
-$@$K!X(Jcode: $@!Y$H%3!<%IF~NO$N$?$a$N%W%m%s%W%H$,I=<($5$l$^$9$N$G!"#1#6?J$N#47e$G(J
-$@%3!<%I$NCM$rF~NO$7$^$9!#$?$H$($P!X$"!Y$N$?$a$K$O!"(J JIS$@%3!<%I$G!V#2#4#2#2!W$"(J
-$@$k$$$O(J EUC$@$G!V(Ja4a2$@!J(JA4A2$@!K!W$HF~NO$7$^$9!#$J$*(J SHIFT-JIS$@%3!<%I$O;H$($^$;$s!#(J
+4.4 コード入力
+「あり？」では、 JISコードあるいは EUCによる漢字の直接コード入力を行うことが
+できます。
+『かなモード』あるいは『カナモード』で '\'(back slash)を入力すると、画面左下
+に『code: 』とコード入力のためのプロンプトが表示されますので、１６進の４桁で
+コードの値を入力します。たとえば『あ』のためには、 JISコードで「２４２２」あ
+るいは EUCで「a4a2（A4A2）」と入力します。なお SHIFT-JISコードは使えません。
 
-4.5 $@%+%JF~NO(J
-$@!V$"$j!)!W$G$O!"%3%s%Q%$%k;~%*%W%7%g%s$N;XDj$K$h$j!"%m!<%^;z2>L>JQ49$K2C$($F(J
-$@%+%J$ND>@\F~NO$b2DG=$K$7$F$$$^$9!#K\5!G=$rMxMQ$9$k$K$O!"%7%s%\%k(J H_KANA $@$rM-(J
-$@8z$K$7$F(J ari$@$r(J make$@$9$kI,MW$,$"$j$^$9!#(J
-$@!J!XIUO?#D(J  $@%3%s%Q%$%k%*%W%7%g%s$N@bL@!Y;2>H(J)
+4.5 カナ入力
+「あり？」では、コンパイル時オプションの指定により、ローマ字仮名変換に加えて
+カナの直接入力も可能にしています。本機能を利用するには、シンボル H_KANA を有
+効にして ariを makeする必要があります。
+（『付録Ｄ  コンパイルオプションの説明』参照)
 
-$@%+%JF~NO$O!"!X$+$J%b!<%I!Y$^$?$O!X%+%J%b!<%I!Y!"!X%+%JJQ49%b!<%I!Y$N$H$-$K!"(J
-$@$$$o$f$kH>3Q%+%J!JCM(J 0xa0$@!A(J0xdf $@!KF~NO$9$k$3$H$G9T$$$^$9!#H>3Q%+%J$OA43Q$KJQ(J
-$@49$5$l!JByE@!"H>ByE@$N=hM}$b$9$k!K!"!X%+%JJQ49%b!<%I!Y$G$O2>L>4A;zJQ49$NBP>](J
-$@$H$J$j$^$9!#$J$*!X%+%JJQ49%b!<%I!Y$X$O!X$+$J%b!<%I!Y$^$?$O!X%+%J%b!<%I!Y$+$i(J
-'^K'$@$rF~NO$7$F0\9T$7$^$9!#(J
+カナ入力は、『かなモード』または『カナモード』、『カナ変換モード』のときに、
+いわゆる半角カナ（値 0xa0〜0xdf ）入力することで行います。半角カナは全角に変
+換され（濁点、半濁点の処理もする）、『カナ変換モード』では仮名漢字変換の対象
+となります。なお『カナ変換モード』へは『かなモード』または『カナモード』から
+'^K'を入力して移行します。
 
-$@%+%JF~NO$r;H$C$?4A;zJQ49$NNc$O<!$N$H$*$j$G$9!#(J
-$@$J$*!"=i4|>uBV$O!X$+$J%b!<%I!Y$rA[Dj$7$F$$$^$9!#(J
+カナ入力を使った漢字変換の例は次のとおりです。
+なお、初期状態は『かなモード』を想定しています。
 
-	$@F~NO(J		$@I=<((J
-	^K		$@"&(J
-	^K$@%"%$(J		$@"&$"$$(J
+	入力		表示
+	^K		▽
+	^Kアイ		▽あい
 
-space $@$rF~NO$9$k$H!"(J
+space を入力すると、
 
-			$@"'0&(J
+			▼愛
 
-$@$H!"!X4A;zA*Br%b!<%I!Y$K$J$j$^$9!#$J$*!X%+%JJQ49%b!<%I!Y$+$i!X$+$J%b!<%I!Y(J
-$@$^$?$O!"!X%+%J%b!<%I!Y$KD>@\$b$I$k$K$O!"!X4A;zJQ49%b!<%I!Y$HF1MM!"(J'^J'$@$"$k(J
-$@$$$O!"5-9f!"?t;z$J$I$rF~NO$7$^$9!J(J'^J'$@$r=|$$$FF~NO$O%F%-%9%H$KH?1G$5$l$k!K!#(J
-$@H>3Q%+%J$N5-9f$G$bF1$8$G$9!#(J
+と、『漢字選択モード』になります。なお『カナ変換モード』から『かなモード』
+または、『カナモード』に直接もどるには、『漢字変換モード』と同様、'^J'ある
+いは、記号、数字などを入力します（'^J'を除いて入力はテキストに反映される）。
+半角カナの記号でも同じです。
 
-4.6 $@8l6g$NEPO?(J
-$@?7$?$J8l6g$NEPO?$O(J':toroku'$@%3%^%s%I$G9T$$$^$9!#!J(J':touroku'$@%3%^%s%I$bF1MM!K(J
-$@$J$*K\5!G=$rMxMQ$9$k$K$O!"%7%s%\%k(J UPDATE_DIC $@$rM-8z$K$7$F(J ari$@$r(J make$@$9$kI,(J
-$@MW$,$"$j$^$9!#(J
-$@!J!XIUO?#D(J  $@%3%s%Q%$%k%*%W%7%g%s$N@bL@!Y;2>H(J)
+4.6 語句の登録
+新たな語句の登録は':toroku'コマンドで行います。（':touroku'コマンドも同様）
+なお本機能を利用するには、シンボル UPDATE_DIC を有効にして ariを makeする必
+要があります。
+（『付録Ｄ  コンパイルオプションの説明』参照)
 
-$@EPO?$7$h$&$H$9$k8l6g$N@hF,$K%+!<%=%k$r0\F0$7$?$N$A!"(J ':toroku'$@%3%^%s%I$r<B9T(J
-$@$9$k$H!"2hLL:82<$K!XEPO?C18l!'!Y$HI=<($5$l$^$9$N$G!"(J'h'$@$"$k$$$O(J'l'$@$G%+!<%=%k(J
-$@$r0\F0$7$FEPO?$9$k8l6g$r;XDj$7!"$=$N8e(J CR( = ^M)$@$rF~NO$7$^$9!#(J
-$@!JA*Br$7$?HO0O$O2hLL:82<$KI=<($5$l$k!K(J
+登録しようとする語句の先頭にカーソルを移動したのち、 ':toroku'コマンドを実行
+すると、画面左下に『登録単語：』と表示されますので、'h'あるいは'l'でカーソル
+を移動して登録する語句を指定し、その後 CR( = ^M)を入力します。
+（選択した範囲は画面左下に表示される）
 
-$@Nc$($PEPO?C18l$H$7$F!XLnNIG-!Y$r;XDj$9$k$H!"$=$N8e2hLL:G2<9T$K$O<!$N$h$&$KI=(J
-$@<($5$l$^$9$N$G!"FI$_$rF~NO$7$^$9!#(J
+例えば登録単語として『野良猫』を指定すると、その後画面最下行には次のように表
+示されますので、読みを入力します。
 
-  $@!Z$"![(J  $@C18l!'!VLnNIG-!W!!$h$_!'(J
+  【あ】  単語：「野良猫」　よみ：
 
-$@FI$_$NF~NO$ODL>o$NJ8;zF~NO$HF1MM$K!X(JASCII$@%b!<%I!Y!"!X$+$J%b!<%I!Y$*$h$S!XA41Q(J
-$@%b!<%I!Y$,;H$($^$9$,!"%3!<%IF~NO$d4A;zJQ49$O$G$-$^$;$s!#$^$?%+%?%+%J$b;H$($^(J
-$@$;$s!#(JCR$@$rF~NO$9$k$H8l6g$NEPO?$O=*N;$7$^$9!#EPO?$7$?8l6g$O$9$0$K2>L>4A;zJQ49(J
-$@$GMxMQ$G$-!"$^$?!V$"$j!)!W=*N;;~$K$O%m!<%+%k<-=q%U%!%$%k$KH?1G!"DI2C$5$l$^$9!#(J
+読みの入力は通常の文字入力と同様に『ASCIIモード』、『かなモード』および『全英
+モード』が使えますが、コード入力や漢字変換はできません。またカタカナも使えま
+せん。CRを入力すると語句の登録は終了します。登録した語句はすぐに仮名漢字変換
+で利用でき、また「あり？」終了時にはローカル辞書ファイルに反映、追加されます。
 
-$@$J$*Aw$j2>L>$N$"$k8l6g$rEPO?$9$k:]$K$O!"%m!<%^;z$GAw$j2>L>$N:G=i$NJ8;z$^$G$r(J
-$@FI$_$K4^$a$^$9!#Nc$($P!XF0$/!Y$rEPO?$9$k>l9g$O!"<!$N$h$&$K$7$^$9!#(J
+なお送り仮名のある語句を登録する際には、ローマ字で送り仮名の最初の文字までを
+読みに含めます。例えば『動く』を登録する場合は、次のようにします。
 
-  $@!Z$"![(J  $@C18l!'!VF0!W!!$h$_!'$&$4(Jk
+  【あ】  単語：「動」　よみ：うごk
 
-$@8l6g$NEPO?$K<:GT$7$?>l9g$O2hLL:82<$K!XEPO?$G$-$^$;$s!Y$HI=<($5$l$^$9!#$^$?EP(J
-$@O?C18l$dFI$_$ND9$5$,#0$G$"$C$?$j(JESC$@$,F~NO$5$l$?>l9g$O!"8l6g$NEPO?$OCfCG!"=*N;(J
-$@$7$^$9!#(J
+語句の登録に失敗した場合は画面左下に『登録できません』と表示されます。また登
+録単語や読みの長さが０であったりESCが入力された場合は、語句の登録は中断、終了
+します。
 
 
 ---- Appendix ----
 
-$@IUO?#A!!%m!<%^;z2>L>JQ49I=(J
+付録Ａ　ローマ字仮名変換表
 
              a     i     u     e     o
-        ***  $@$"(J    $@$$(J    $@$&(J    $@$((J    $@$*(J
-        **k  $@$+(J    $@$-(J    $@$/(J    $@$1(J    $@$3(J
-        **g  $@$,(J    $@$.(J    $@$0(J    $@$2(J    $@$4(J
-        **s  $@$5(J    $@$7(J    $@$9(J    $@$;(J    $@$=(J
-        *sh  $@$7$c(J  $@$7(J    $@$7$e(J  $@$7$'(J  $@$7$g(J
-        **z  $@$6(J    $@$8(J    $@$:(J    $@$<(J    $@$>(J
-        **j  $@$8$c(J  $@$8(J    $@$8$e(J  $@$8$'(J  $@$8$g(J
-        **t  $@$?(J    $@$A(J    $@$D(J    $@$F(J    $@$H(J
-        *ts  $@!&(J    $@!&(J    $@$D(J    $@!&(J    $@!&(J 
-        *ch  $@$A$c(J  $@$A(J    $@$A$e(J  $@$A$'(J  $@$A$g(J
-        **d  $@$@(J    $@$B(J    $@$E(J    $@$G(J    $@$I(J
-        **n  $@$J(J    $@$K(J    $@$L(J    $@$M(J    $@$N(J
-        **h  $@$O(J    $@$R(J    $@$U(J    $@$X(J    $@$[(J
-        **f  $@$U$!(J  $@$U$#(J  $@$U(J    $@$U$'(J  $@$U$)(J
-        **b  $@$P(J    $@$S(J    $@$V(J    $@$Y(J    $@$\(J
-        **p  $@$Q(J    $@$T(J    $@$W(J    $@$Z(J    $@$](J
-        **m  $@$^(J    $@$_(J    $@$`(J    $@$a(J    $@$b(J
-        **y  $@$d(J    $@!&(J    $@$f(J    $@!&(J    $@$h(J
-        **r  $@$i(J    $@$j(J    $@$k(J    $@$l(J    $@$m(J
-        **w  $@$o(J    $@$p(J    $@!&(J    $@$q(J    $@$r(J
-        **v  $@%t%!(J  $@%t%#(J  $@%t(J    $@%t%'(J  $@%t%)(J
-        *ky  $@$-$c(J  $@$-$#(J  $@$-$e(J  $@$-$'(J  $@$-$g(J
-        *gy  $@$.$c(J  $@$.$#(J  $@$.$e(J  $@$.$'(J  $@$.$g(J
-        *sy  $@$7$c(J  $@$7$#(J  $@$7$e(J  $@$7$'(J  $@$7$g(J
-        *jy  $@$8$c(J  $@$8$#(J  $@$8$e(J  $@$8$'(J  $@$8$g(J
-        *zy  $@$8$c(J  $@$8$#(J  $@$8$e(J  $@$8$'(J  $@$8$g(J
-        *ty  $@$A$c(J  $@$A$#(J  $@$A$e(J  $@$A$'(J  $@$A$g(J
-        *dy  $@$B$c(J  $@$B$#(J  $@$B$e(J  $@$B$'(J  $@$B$g(J
-        *ny  $@$K$c(J  $@$K$#(J  $@$K$e(J  $@$K$'(J  $@$K$g(J
-        *hy  $@$R$c(J  $@$R$#(J  $@$R$e(J  $@$R$'(J  $@$R$g(J
-        *by  $@$S$c(J  $@$S$#(J  $@$S$e(J  $@$S$'(J  $@$S$g(J
-        *py  $@$T$c(J  $@$T$#(J  $@$T$e(J  $@$T$'(J  $@$T$g(J
-        *my  $@$_$c(J  $@$_$#(J  $@$_$e(J  $@$_$'(J  $@$_$g(J
-        *ry  $@$j$c(J  $@$j$#(J  $@$j$e(J  $@$j$'(J  $@$j$g(J
-        **x  $@$!(J    $@$#(J    $@$%(J    $@$'(J    $@$)(J
-        *xk  $@%u(J    $@!&(J    $@!&(J    $@%v(J    $@!&(J
-        xts  $@!&(J    $@!&(J    $@$C(J    $@!&(J    $@!&(J
-        *xt  $@!&(J    $@!&(J    $@$C(J    $@!&(J    $@!&(J
-        *xy  $@$c(J    $@!&(J    $@$e(J    $@!&(J    $@$g(J
-        *xw  $@$n(J    $@!&(J    $@!&(J    $@!&(J    $@!&(J
+        ***  あ    い    う    え    お
+        **k  か    き    く    け    こ
+        **g  が    ぎ    ぐ    げ    ご
+        **s  さ    し    す    せ    そ
+        *sh  しゃ  し    しゅ  しぇ  しょ
+        **z  ざ    じ    ず    ぜ    ぞ
+        **j  じゃ  じ    じゅ  じぇ  じょ
+        **t  た    ち    つ    て    と
+        *ts  ・    ・    つ    ・    ・ 
+        *ch  ちゃ  ち    ちゅ  ちぇ  ちょ
+        **d  だ    ぢ    づ    で    ど
+        **n  な    に    ぬ    ね    の
+        **h  は    ひ    ふ    へ    ほ
+        **f  ふぁ  ふぃ  ふ    ふぇ  ふぉ
+        **b  ば    び    ぶ    べ    ぼ
+        **p  ぱ    ぴ    ぷ    ぺ    ぽ
+        **m  ま    み    む    め    も
+        **y  や    ・    ゆ    ・    よ
+        **r  ら    り    る    れ    ろ
+        **w  わ    ゐ    ・    ゑ    を
+        **v  ヴァ  ヴィ  ヴ    ヴェ  ヴォ
+        *ky  きゃ  きぃ  きゅ  きぇ  きょ
+        *gy  ぎゃ  ぎぃ  ぎゅ  ぎぇ  ぎょ
+        *sy  しゃ  しぃ  しゅ  しぇ  しょ
+        *jy  じゃ  じぃ  じゅ  じぇ  じょ
+        *zy  じゃ  じぃ  じゅ  じぇ  じょ
+        *ty  ちゃ  ちぃ  ちゅ  ちぇ  ちょ
+        *dy  ぢゃ  ぢぃ  ぢゅ  ぢぇ  ぢょ
+        *ny  にゃ  にぃ  にゅ  にぇ  にょ
+        *hy  ひゃ  ひぃ  ひゅ  ひぇ  ひょ
+        *by  びゃ  びぃ  びゅ  びぇ  びょ
+        *py  ぴゃ  ぴぃ  ぴゅ  ぴぇ  ぴょ
+        *my  みゃ  みぃ  みゅ  みぇ  みょ
+        *ry  りゃ  りぃ  りゅ  りぇ  りょ
+        **x  ぁ    ぃ    ぅ    ぇ    ぉ
+        *xk  ヵ    ・    ・    ヶ    ・
+        xts  ・    ・    っ    ・    ・
+        *xt  ・    ・    っ    ・    ・
+        *xy  ゃ    ・    ゅ    ・    ょ
+        *xw  ゎ    ・    ・    ・    ・
 
 
-$@IUO?#B(J  $@2>L>4A;zJQ49%W%m%0%i%`$K$D$$$F(J
+付録Ｂ  仮名漢字変換プログラムについて
 
-$@!V$"$j!)!W$O!"F|K\8l%(%G%#%?5!G=$*$h$SF|K\8lF~NO%$%s%?%U%'!<%95!G=$rDs6!$9$k(J
-$@%W%m%0%i%`(J $@!X(Jari$@!Y$H<B:]$N2>L>4A;zJQ49=hM}$r9T$&%W%m%0%i%`$H0lBP$GF0:n$7$^$9!#(J
+「あり？」は、日本語エディタ機能および日本語入力インタフェース機能を提供する
+プログラム 『ari』と実際の仮名漢字変換処理を行うプログラムと一対で動作します。
 
-$@!V$"$j!)!W$N2>L>4A;zJQ49$O!"(J $@!X(Jari$@!Y$,4D6-JQ?t(J ARI_KKF$@$G;XDj$5$l$k2>L>4A;zJQ(J
-$@49%W%m%0%i%`$H!"$=$NI8=`F~=PNO$rDL$7$F0lDj$N%W%m%H%3%k$K$h$jDL?.$9$k$3$H$K$h(J
-$@$j<B8=$7$F$$$^$9$N$G!"(J $@!X(Jari$@!Y$,;H$&%W%m%H%3%k$rM}2r$G$-$l$P$I$N$h$&$J2>L>4A(J
-$@;zJQ49%W%m%0%i%`$G$bMxMQ$G$-$^$9!#$7$+$7!"$=$N$h$&$J%W%m%0%i%`$O!"8=:_$OIUB0(J
-$@$N(J $@!X(Jskksrch$@!Y$7$+$"$j$^$;$s!#(J
+「あり？」の仮名漢字変換は、 『ari』が環境変数 ARI_KKFで指定される仮名漢字変
+換プログラムと、その標準入出力を通して一定のプロトコルにより通信することによ
+り実現していますので、 『ari』が使うプロトコルを理解できればどのような仮名漢
+字変換プログラムでも利用できます。しかし、そのようなプログラムは、現在は付属
+の 『skksrch』しかありません。
 
- skksrch$@$rMxMQ$9$k>l9g$G$N!"4D6-JQ?t$N@_Dj$N;EJ}$O<!$N$H$*$j$G$9!#(J
+ skksrchを利用する場合での、環境変数の設定の仕方は次のとおりです。
 
-  ARI_KKF         $@!D(J "skksrch"$@$H$9$k!J>l9g$K$h$C$F$O%U%k(JPATH$@$G;XDj!K(J
-  LOCAL_SKK_JISYO $@!D(J skksrch$@$N;HMQ$9$k%m!<%+%k<-=q%U%!%$%k$r;XDj$9$k(J
-  SKK_JISYO       $@!D(J skksrch$@$N;HMQ$9$k6&DL<-=q%U%!%$%k$r;XDj$9$k(J
+  ARI_KKF         … "skksrch"とする（場合によってはフルPATHで指定）
+  LOCAL_SKK_JISYO … skksrchの使用するローカル辞書ファイルを指定する
+  SKK_JISYO       … skksrchの使用する共通辞書ファイルを指定する
 
-$@$J$*(J stand alone$@%?%$%W$N!V$"$j!)!W$O(J skksrch$@$HF1Ey$N2>L>4A;zJQ49=hM}$^$G4^$_!"(J
-$@C1FH$G$NF0:n$,2DG=$G$9!#(J
-$@!J!XIUO?#D(J  $@%3%s%Q%$%k%*%W%7%g%s$N@bL@!Y;2>H!K(J
+なお stand aloneタイプの「あり？」は skksrchと同等の仮名漢字変換処理まで含み、
+単独での動作が可能です。
+（『付録Ｄ  コンパイルオプションの説明』参照）
 
-B.1 skksrch$@$N35MW(J
-skksrch $@$O!"(JSKK $@IUB0$N(J skkserv$@$H4pK\E*$KF1$8%"%k%4%j%`$G(J SKK$@<-=q%U%!%$%k$r8!(J
-$@:w$9$k%W%m%0%i%`$G$9$,!"MxMQJ}K!$OBg$-$/0c$C$F$$$^$9!#(J
+B.1 skksrchの概要
+skksrch は、SKK 付属の skkservと基本的に同じアルゴリムで SKK辞書ファイルを検
+索するプログラムですが、利用方法は大きく違っています。
 
-	$@!&I8=`F~=PNO$r$D$+$C$FDL?.$r9T$&(J
-	$@!&DL?.%W%m%H%3%k$K8_49@-$,$J$$(J
-	$@!&%m!<%+%k<-=q%U%!%$%k$H6&DL<-=q%U%!%$%k$N#2<oN`$N<-=q%U%!%$%k$r$b$D(J
-	$@!!$3$H$,$G$-$k(J
-	$@!&IaDL$N(J SKK$@<-=q%U%!%$%k$N$[$+!"%$%s%G%C%/%9IU$-<-=q%U%!%$%k$r;H$&$3(J
-	$@!!$H$,$G$-$k(J
+	・標準入出力をつかって通信を行う
+	・通信プロトコルに互換性がない
+	・ローカル辞書ファイルと共通辞書ファイルの２種類の辞書ファイルをもつ
+	　ことができる
+	・普通の SKK辞書ファイルのほか、インデックス付き辞書ファイルを使うこ
+	　とができる
 
-$@MxMQ$9$k<-=q%U%!%$%k$O>:=g$K%=!<%H$5$l$F$$$kI,MW$,$"$j$^$9!#(J
-$@$^$?IaDL$N(J SKK$@<-=q%U%!%$%k$K$+$($F%$%s%G%C%/%9IU$-<-=q%U%!%$%k$rMQ$$$k$3$H$G!"(J
-$@9bB.$K5/F0$9$k$3$H$,$G$-$^$9!#(J
-$@!J!X(JB.4 $@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$K$D$$$F!Y;2>H!K(J
+利用する辞書ファイルは昇順にソートされている必要があります。
+また普通の SKK辞書ファイルにかえてインデックス付き辞書ファイルを用いることで、
+高速に起動することができます。
+（『B.4 インデックス付き辞書ファイルについて』参照）
 
-B.2 $@<-=q%U%!%$%k$N;XDj$N;EJ}(J
-$@%m!<%+%k<-=q%U%!%$%k$N%G%U%)%k%H(JPATH$@$O(J $HOME/.skk-jisyo $@$G$9!#$3$l$O4D6-JQ?t(J
-LOCAL_SKK_JISYO $@$K$h$j;XDj$G$-$^$9!#(J
-$@%m!<%+%k<-=q%U%!%$%k$O!"I,$:I,MW$G$9!#!J6u$G$b$h$$!K(J
-$@0lJ}6&DL<-=q%U%!%$%k$O4D6-JQ?t(J SKK_JISYO$@$K$h$j;XDj$7$^$9!#(J
-	$@!J6&DL<-=q%U%!%$%k$O;XDj$7$J$/$F$b$h$$!K(J
+B.2 辞書ファイルの指定の仕方
+ローカル辞書ファイルのデフォルトPATHは $HOME/.skk-jisyo です。これは環境変数
+LOCAL_SKK_JISYO により指定できます。
+ローカル辞書ファイルは、必ず必要です。（空でもよい）
+一方共通辞書ファイルは環境変数 SKK_JISYOにより指定します。
+	（共通辞書ファイルは指定しなくてもよい）
 
-$@<-=q%U%!%$%k$O5/F0;~$K0z?t$rMQ$$$F;XDj$9$k$3$H$b2DG=$G$9!#Nc$($P6&DL<-=q%U%!(J
-$@%$%k$H$7$F(J SKK-JISYO$@$r!"$^$?%m!<%+%k<-=q%U%!%$%k$H$7$F(J local-skk-jisyo$@$r;XDj(J
-$@$9$k>l9g$O!"0J2<$N$h$&$K5/F0$"$k$$$O4D6-JQ?t(J ARI_KKF$@$K;XDj$7$^$9!#(J
-$@!J>\:Y$O(J skksrch$@$r0z?t(J -help$@$H$H$b$K5/F0$7$?:]$KI=<($5$l$k%a%C%;!<%8$r8fMw$/(J
-$@!!$@$5$$!#!K(J
+辞書ファイルは起動時に引数を用いて指定することも可能です。例えば共通辞書ファ
+イルとして SKK-JISYOを、またローカル辞書ファイルとして local-skk-jisyoを指定
+する場合は、以下のように起動あるいは環境変数 ARI_KKFに指定します。
+（詳細は skksrchを引数 -helpとともに起動した際に表示されるメッセージを御覧く
+　ださい。）
 
 	skksrch -global SKK-JISYO local-skk-jisyo
 
-$@$J$*0z?t$K$h$k;XDj$O4D6-JQ?t$K$h$k;XDj$h$jM%@h$5$l$^$9!#(J
+なお引数による指定は環境変数による指定より優先されます。
 
-skksrch $@$G$N8l6g$N8!:w$O%m!<%+%k<-=q%U%!%$%k$H6&DL<-=q%U%!%$%k$NN>J}$N<-=q$K(J
-$@BP$7$F9T$$!"%m!<%+%k<-=q%U%!%$%k$K$"$k8uJd$,@h$KJQ498uJd$H$7$FM%@h$7$F8=$l$^(J
-$@$9!#$^$??7$?$KEPO?$5$l$?8l6g$O%m!<%+%k<-=q%U%!%$%k$KDI2C!"99?7$5$l$^$9!#(J
+skksrch での語句の検索はローカル辞書ファイルと共通辞書ファイルの両方の辞書に
+対して行い、ローカル辞書ファイルにある候補が先に変換候補として優先して現れま
+す。また新たに登録された語句はローカル辞書ファイルに追加、更新されます。
 
-$@$3$N$?$a!"%m!<%+%k<-=q%U%!%$%k$K$O$h$/MxMQ$9$k8l6g$d8D?M$GDI2C$9$k8l6g$N%(%s(J
-$@%H%j$N$_$r:n@.$7!"(J SKK$@IUB0$N<-=q%U%!%$%k$J$IHFMQE*$JBg$-$J<-=q%U%!%$%k$O6&DL(J
-$@<-=q%U%!%$%k$K;XDj$5$l$k$3$H$r4+$a$^$9!#(J
+このため、ローカル辞書ファイルにはよく利用する語句や個人で追加する語句のエン
+トリのみを作成し、 SKK付属の辞書ファイルなど汎用的な大きな辞書ファイルは共通
+辞書ファイルに指定されることを勧めます。
 
-B.3 $@8l6g$N8!:w!"EPO?$H%m!<%+%k<-=q%U%!%$%k$N99?7(J
-skksrch $@$O4pK\E*$K<-=q%U%!%$%k$KEPO?$5$l$F$$$k=gHV$G8!:w$r9T$$$^$9!#(J
-$@2>L>4A;zJQ49$G3NDj$7$?8l6g$O!"<!$N8!:w$G$O6&DL<-=q%U%!%$%k$K$"$k8uJd$h$jM%@h(J
-$@$7$F8=$l$^$9!#?7$?$KEPO?$5$l$?8l6g$K$D$$$F$bF1MM$G$9!#(J
+B.3 語句の検索、登録とローカル辞書ファイルの更新
+skksrch は基本的に辞書ファイルに登録されている順番で検索を行います。
+仮名漢字変換で確定した語句は、次の検索では共通辞書ファイルにある候補より優先
+して現れます。新たに登録された語句についても同様です。
 
-$@?7$?$KEPO?$5$l$?8l6g$O!"$^$:(J skksrch$@FbIt$N:n6HNN0h$KJ];}$5$l!"$=$N8e%m!<%+%k(J
-$@<-=q%U%!%$%k$KDI2C!"99?7$5$l$^$9!#%m!<%+%k<-=q%U%!%$%k$N99?7$O(J skksrch$@$H$7$F(J
-$@$OL@<(E*$K;X<($5$l$k$3$H$,I,MW$G$9$,!"!V$"$j!)!W$G$O$=$N=*N;;~$K<+F0E*$K99?7(J
-$@$r9T$$$^$9!#99?7$5$l$?%m!<%+%k<-=q%U%!%$%k$OIaDL$N(J SKK$@<-=q%U%!%$%k$N%U%)!<(J
-$@%^%C%H$G:n@.$5$l$^$9!J%$%s%G%C%/%9IU$-<-=q%U%!%$%k$G$O$"$j$^$;$s!K!#(J
+新たに登録された語句は、まず skksrch内部の作業領域に保持され、その後ローカル
+辞書ファイルに追加、更新されます。ローカル辞書ファイルの更新は skksrchとして
+は明示的に指示されることが必要ですが、「あり？」ではその終了時に自動的に更新
+を行います。更新されたローカル辞書ファイルは普通の SKK辞書ファイルのフォー
+マットで作成されます（インデックス付き辞書ファイルではありません）。
 
-$@%m!<%+%k<-=q%U%!%$%k$r99?7$9$k$H!"85$N%m!<%+%k<-=q%U%!%$%k$O(J($@2DG=$G$"$l$P(J)$@=>(J
-$@Mh$N%U%!%$%kL>$K(J '~' $@$rDI2C$7$?L>A0$GJ]B8$5$l$^$9!#(J
+ローカル辞書ファイルを更新すると、元のローカル辞書ファイルは(可能であれば)従
+来のファイル名に '~' を追加した名前で保存されます。
 
-$@$J$*8l6g$NEPO?$*$h$S8!:w=gJQ99$N5!G=$rMxMQ$9$k$?$a$K$O!"%7%s%\%k(J UPDATE_DIC$@$r(J
-$@M-8z$K$7$F!"(Jmake$@$9$kI,MW$,$"$j$^$9!#(J
-$@$?$@$7(J $@%7%s%\%k(J SMALL_POOL$@$,M-8z$G$"$C$?>l9g$O!"8l6g$NEPO?$O$G$-$^$9$,8!:w=g(J
-$@JQ99$N5!G=$OL58z$H$J$j$^$9!#(J
+なお語句の登録および検索順変更の機能を利用するためには、シンボル UPDATE_DICを
+有効にして、makeする必要があります。
+ただし シンボル SMALL_POOLが有効であった場合は、語句の登録はできますが検索順
+変更の機能は無効となります。
 
-B.4 $@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$K$D$$$F(J
-$@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$O!"(JSKK$@<-=q%U%!%$%k$r$b$H$K8+=P$70LCV>pJs$r$=$N(J
-$@%U%!%$%k$N@hF,$KIU2C$7$?$b$N$G$9!#(J
+B.4 インデックス付き辞書ファイルについて
+インデックス付き辞書ファイルは、SKK辞書ファイルをもとに見出し位置情報をその
+ファイルの先頭に付加したものです。
 
-skksrch$@$"$k$$$O(J stand alone$@%?%$%W$N!V$"$j!)!W$O!"8+=P$70LCV>pJs$NIU$$$F$$$J$$(J
-$@IaDL$N(J SKK$@<-=q%U%!%$%k$b%$%s%G%C%/%9IU$-<-=q%U%!%$%k$bF1MM$KMxMQ$9$k$3$H$,$G(J
-$@$-$^$9!#$?$@$7Bg$-$J<-=q%U%!%$%k$G$O!"%$%s%G%C%/%9IU$-<-=q%U%!%$%k$r;H$&$3$H(J
-$@$G!"IaDL$N(J SKK$@<-=q%U%!%$%k$rMxMQ$9$k>l9g$KHf$Y%W%m%0%i%`$r9bB.$K5/F0$9$k$3$H(J
-$@$,$G$-$^$9!#(J
-$@$3$N$?$a%5%$%:$NBg$-$$6&DL<-=q%U%!%$%k$O%$%s%G%C%/%9IU$-<-=q%U%!%$%k$KJQ49$7(J
-$@$FMxMQ$5$l$k$3$H$r4+$a$^$9!#(J
+skksrchあるいは stand aloneタイプの「あり？」は、見出し位置情報の付いていない
+普通の SKK辞書ファイルもインデックス付き辞書ファイルも同様に利用することがで
+きます。ただし大きな辞書ファイルでは、インデックス付き辞書ファイルを使うこと
+で、普通の SKK辞書ファイルを利用する場合に比べプログラムを高速に起動すること
+ができます。
+このためサイズの大きい共通辞書ファイルはインデックス付き辞書ファイルに変換し
+て利用されることを勧めます。
 
-$@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$N:n@.$K$O(J skksrch$@%3%^%s%I$r;H$$!"85$K$J$k(J SKK$@<-(J
-$@=q%U%!%$%k$r(Jskkjisyo$@!":n@.$9$k%$%s%G%C%/%9IU$-<-=q$r(J idxskkjisyo $@$H$9$k$H!"(J
+インデックス付き辞書ファイルの作成には skksrchコマンドを使い、元になる SKK辞
+書ファイルをskkjisyo、作成するインデックス付き辞書を idxskkjisyo とすると、
 
     $ skksrch -index skkjisyo > idxskkjisyo
 
-$@$"$k$$$O!"(J
+あるいは、
 
     $ skksrch -index skkjisyo -to idxskkjisyo
 
-$@$H<B9T$7$F$/$@$5$$!#(J
+と実行してください。
 
-$@8+=P$70LCV>pJs$O(J ASCII$@%F%-%9%H$H$7$FIU2C$5$l$F$$$^$9$N$G!"%$%s%G%C%/%9IU$-<-(J
-$@=q%U%!%$%k$O(J int$@7?JQ?t$NBg$-$5$d(J endian$@$N0[$J$k%7%9%F%`4V$G$b6&M-$9$k$3$H$,$G(J
-$@$-$^$9!#(J
+見出し位置情報は ASCIIテキストとして付加されていますので、インデックス付き辞
+書ファイルは int型変数の大きさや endianの異なるシステム間でも共有することがで
+きます。
 
-$@$^$?(J SKK$@<-=q%U%!%$%kF1MM%(%G%#%?Ey$GMF0W$KJT=8$,2DG=$G!"%U%!%$%k$N@hF,$KIU2C(J
-$@$5$l$?8+=P$70LCV>pJs$r:o=|$9$k$@$1$G!"IaDL$N(J SKK$@<-=q%U%!%$%k$HF1$8%U%)!<%^%C(J
-$@%H$K$J$j$^$9!#(J
-$@Nc$($P<!$N$h$&$K$7$F!"%$%s%G%C%/%9IU$-<-=q(J idxskkjisyo $@$+$i(J SKK$@<-=q%U%!%$%k(J
-skkjisyo$@$KLa$9$3$H$,$G$-$^$9!#(J
+また SKK辞書ファイル同様エディタ等で容易に編集が可能で、ファイルの先頭に付加
+された見出し位置情報を削除するだけで、普通の SKK辞書ファイルと同じフォーマッ
+トになります。
+例えば次のようにして、インデックス付き辞書 idxskkjisyo から SKK辞書ファイル
+skkjisyoに戻すことができます。
 
     $ sed '/^ Start of Index$/,/^ End of Index$/d' idxskkjisyo > skkjisyo
 
-$@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$rJT=8$7$?>l9g$O8+=P$70LCV>pJs$,L58z$K$J$j$^$9$N(J
-$@$G!"$+$J$i$:JT=88e$N%U%!%$%k$r$b$H$K:FEY%$%s%G%C%/%9IU$-<-=q%U%!%$%k$r@8@.$7(J
-$@D>$7$F$/$@$5$$!#$J$*8+=P$70LCV>pJs$r:o=|$9$kI,MW$O$"$j$^$;$s!#(J
-$@!J%$%s%G%C%/%9IU$-<-=q%U%!%$%k$r:n@.$9$k:]$d!"8+=P$70LCV>pJs$H%U%!%$%k$NBg$-(J
-$@!!$5$KIT@09g$,$"$k>l9g$K$O!"8+=P$70LCV>pJs$OL5;k$5$l$^$9!#!K(J
+インデックス付き辞書ファイルを編集した場合は見出し位置情報が無効になりますの
+で、かならず編集後のファイルをもとに再度インデックス付き辞書ファイルを生成し
+直してください。なお見出し位置情報を削除する必要はありません。
+（インデックス付き辞書ファイルを作成する際や、見出し位置情報とファイルの大き
+　さに不整合がある場合には、見出し位置情報は無視されます。）
 
-$@IUO?#C(J  $@%=!<%9$N4JC1$J@bL@(J
+付録Ｃ  ソースの簡単な説明
 
-$@!V$"$j!)!W$N%=!<%9%W%m%0%i%`$O!"0J2<$N$H$*$j$G$9!#(J
+「あり？」のソースプログラムは、以下のとおりです。
 
-ari, skksrch $@6&DL(J:
-  config.h  $@!D(J $@%7%9%F%`Hs0MB8$N%3%s%Q%$%k%*%W%7%g%s;XDj(J
+ari, skksrch 共通:
+  config.h  … システム非依存のコンパイルオプション指定
 
 ari:
-  lazy.h    $@!D(J ari$@$N6&DL(J header$@%U%!%$%k(J
-  ae.c      $@!D(J AE SPOILER$@HG$r%Y!<%9$H$7$?JT=85!G=4X78(J
-  lazy.c    $@!D(J $@2hLL@)8f5!G=$H4A;z%3!<%IJQ49(J
-  kanakan.c $@!D(J $@J8;zF~NO5!G=!"%m!<%^;z2>L>JQ49!"2>L>4A;zJQ49%$%s%?!<%U%'%#%9(J
-  mnxio.c   $@!D(J $@C<Kv@)8f$*$h$SF~=PNO5!G=!J(JMINIX$@5Z$S$=$N;PKe8~$1!K(J
+  lazy.h    … ariの共通 headerファイル
+  ae.c      … AE SPOILER版をベースとした編集機能関係
+  lazy.c    … 画面制御機能と漢字コード変換
+  kanakan.c … 文字入力機能、ローマ字仮名変換、仮名漢字変換インターフェィス
+  mnxio.c   … 端末制御および入出力機能（MINIX及びその姉妹向け）
 
 skksrch:
-  skksrch.c $@!D(J SKK$@<-=q%U%!%$%k$rMQ$$$?2>L>4A;zJQ495!G=(J
+  skksrch.c … SKK辞書ファイルを用いた仮名漢字変換機能
 
-$@%m!<%^;z2>L>JQ49I=!"5-9f$NJQ49I=!"(J 'z'$@$KB3$/5-9f$NJQ49I=$O$=$l$>$l(J kanakan.c
-$@Fb$N(J kana_tbl$@!"(Jkigo_tbl$@!"(Jzkigo_tbl$@$G$9!#FC$K(J kigo_tbl$@!"(Jzkigo_tbl$@$OF~NO$5$l$k(J
-$@5-9f$HJQ497k2L$NBP$,JB$s$G$$$k$@$1$G$9$N$G!"$=$NJQ99!"DI2C$OMF0W$G$9!#(J
-$@$J$*(J lkigo_tbl$@$O!XA41Q%b!<%I!Y$N$H$-$KMQ$$$k5-9f$NJQ49I=$G$9!#(J
+ローマ字仮名変換表、記号の変換表、 'z'に続く記号の変換表はそれぞれ kanakan.c
+内の kana_tbl、kigo_tbl、zkigo_tblです。特に kigo_tbl、zkigo_tblは入力される
+記号と変換結果の対が並んでいるだけですので、その変更、追加は容易です。
+なお lkigo_tblは『全英モード』のときに用いる記号の変換表です。
 
-$@!V$"$j!)!W$G07$&(Jtext$@$NJ8;z$O!"(J ic_t$@7?!J(Jlazy.h$@$GDj5A!K$G!"(J16bit$@!!Id9fIU$-@0?t(J
-$@$rA[Dj$7$F$$$^$9!#$=$NFbIt%3!<%I$O<!$N$H$*$j$G$9!#(J
+「あり？」で扱うtextの文字は、 ic_t型（lazy.hで定義）で、16bit　符号付き整数
+を想定しています。その内部コードは次のとおりです。
 
-  $@!&%3%s%H%m!<%k%3!<%I$r4^$`(JASCII$@J8;z(J $@!D(J 0x0000 $@!A(J 0x007e$@!J@5CM!K(J
-  $@!&$$$o$f$kH>3Q%+%J(J                  $@!D(J 0x00a0 $@!A(J 0x00df$@!J@5CM!K(J
-  $@!&4A;z$J$I$$$o$f$kA43QJ8;z(J          $@!D(J 0xa1a1 $@!A(J 0xfefe$@!JIiCM!K(J
+  ・コントロールコードを含むASCII文字 … 0x0000 〜 0x007e（正値）
+  ・いわゆる半角カナ                  … 0x00a0 〜 0x00df（正値）
+  ・漢字などいわゆる全角文字          … 0xa1a1 〜 0xfefe（負値）
 
-$@4A;z$N%3!<%ICM$O(J EUC$@$K=`5r$7$?CM$rMQ$$$F$$$^$9!#$^$?(Jlazy.c$@$NCf$G$OKd$aAp$N(J
-$@L58z$JJ8;z$rI=$9$?$a$K(J0x2020$@$rMQ$$$F$$$^$9!#(J
+漢字のコード値は EUCに準拠した値を用いています。またlazy.cの中では埋め草の
+無効な文字を表すために0x2020を用いています。
 
-$@%7%9%F%`0MB8$N9b$$C<Kv@)8f$*$h$SF~=PNO5!G=$O(J mnxio.c$@$K=8Ls$5$l$F$$$^$9!#(J
-$@!J(Jmnxio.c$@$O(J MINIX$@$*$h$S(J bsd$@!"(JsysV$@$J$I$=$N;PKe$N%7%9%F%`8~$1$G$9!#!K(J
+システム依存の高い端末制御および入出力機能は mnxio.cに集約されています。
+（mnxio.cは MINIXおよび bsd、sysVなどその姉妹のシステム向けです。）
 
-$@C<Kv@)8f$*$h$SF~=PNO$KI,MW$J%(%s%H%j$H5!G=$O<!$N#5$D$G$9!#(J
+端末制御および入出力に必要なエントリと機能は次の５つです。
 
-  $@!&(Jchar *scrctl_conf = "info"; configration$@>pJs!JJ8;zNs!K$X$N%]%$%s%?(J
-  $@!&(Jvoid init_tty()             $@C<Kv$N=i4|2=(J
-                               $@!J>uBV$NJ]B8$H(J raw$@%b!<%I$X$N@_Dj!K(J
-  $@!&(Jvoid end_tty()              $@C<Kv>uBV$NI|5"(J
-  $@!&(Jvoid out_tty(s, n)          $@C<Kv$X$NJ8;zNs=PNO(J
-         char *s;               $@J8;zNs$X$N%]%$%s%?(J
-         int n;                 $@J8;zNs$ND9$5(J
-  $@!&(Jint  getch()                $@C<Kv$+$i$N(J 1$@J8;zF~NO(J
+  ・char *scrctl_conf = "info"; configration情報（文字列）へのポインタ
+  ・void init_tty()             端末の初期化
+                               （状態の保存と rawモードへの設定）
+  ・void end_tty()              端末状態の復帰
+  ・void out_tty(s, n)          端末への文字列出力
+         char *s;               文字列へのポインタ
+         int n;                 文字列の長さ
+  ・int  getch()                端末からの 1文字入力
 
-$@%]%$%s%?(J scrctl_conf$@$,;X$9J8;zNs$O!"(J':setup'$@%3%^%s%I<B9T;~$KC<Kv@)8f$K4X$9$k(J
-configration$@>pJs$H$7$F!"(J"screen control: "$@$K$D$E$$$FI=<($5$l$^$9!#(J
+ポインタ scrctl_confが指す文字列は、':setup'コマンド実行時に端末制御に関する
+configration情報として、"screen control: "につづいて表示されます。
 
 
-$@IUO?#D(J  $@%3%s%Q%$%k%*%W%7%g%s$N@bL@(J
+付録Ｄ  コンパイルオプションの説明
 
-config.h$@$G;XDj$9$k%3%s%Q%$%k%*%W%7%g%s$O<!$N$H$*$j$G$9!#(J
+config.hで指定するコンパイルオプションは次のとおりです。
 
-	H_KANA      $@!D(J $@%m!<%^;z2>L>JQ49$@$1$G$J$/!"%+%JF~NO$r2DG=$H$9$k(J
-	UPDATE_DIC $@!D(J $@8l6g$NEPO?$H8!:w=g$NJQ99$r2DG=$H$9$k(J
-	SMALL_POOL $@!D(J UPDATE_DIC$@;XDj;~$G$N8l6g$N8!:w=gJQ995!G=$rL58z$K$9$k(J
-	              $@!JFbIt:n6HNN0h$N8zN(E*MxMQ$N$?$a!K(J
+	H_KANA      … ローマ字仮名変換だけでなく、カナ入力を可能とする
+	UPDATE_DIC … 語句の登録と検索順の変更を可能とする
+	SMALL_POOL … UPDATE_DIC指定時での語句の検索順変更機能を無効にする
+	              （内部作業領域の効率的利用のため）
 
-Makefile$@$G;XDj$9$k%3%s%Q%$%k%*%W%7%g%s$O<!$N$H$*$j$G$9!#(J
+Makefileで指定するコンパイルオプションは次のとおりです。
 
-	ARI         $@!D(J $@!V$"$j!)!W$H$7$F%3%s%Q%$%k$9$k:]$K$OI,$:;XDj(J
-	TERMIO      $@!D(J $@C<Kv@)8f$r(Jsystem V$@8~$1$K$9$k(J
-	NO_STDLIB_H $@!D(J stdlib.h$@$,$J$$>l9g$K;XDj(J
-	NO_STRING_H $@!D(J string.h$@$,$J$$>l9g$K;XDj!JBe$j$K(Jstrings.h$@$r;HMQ!K(J
-	MERGE       $@!D(J stand alone$@%?%$%W$N(Jari$@$r(Jmake$@$9$k>l9g$K;XDj(J
-	SMALL_REG   $@!D(J MINIX for IBM/PC$@$J$I(J data + stack $@NN0h$,(J 64KB$@$K@)8B$5(J
-	               $@$l$F$$$k>l9g$K;XDj(J
+	ARI         … 「あり？」としてコンパイルする際には必ず指定
+	TERMIO      … 端末制御をsystem V向けにする
+	NO_STDLIB_H … stdlib.hがない場合に指定
+	NO_STRING_H … string.hがない場合に指定（代りにstrings.hを使用）
+	MERGE       … stand aloneタイプのariをmakeする場合に指定
+	SMALL_REG   … MINIX for IBM/PCなど data + stack 領域が 64KBに制限さ
+	               れている場合に指定
 
-sysV$@7O$N%7%9%F%`$G$O!"%7%s%\%k(J TERMIO$@$rM-8z$K$9$kI,MW$,$"$j$^$9!#$^$?(J BSD$@7O(J
-$@$N8E$$%7%9%F%`$G$O!"%7%s%\%k(J NO_STRING_H$@$rM-8z$K$9$kI,MW$,$"$k$+$b$7$l$^$;$s!#(J
-$@%7%s%\%k(J NO_STDLIB_H$@$NI,MW@-$O%7%9%F%`Kh$K0[$J$j$^$9!#(J
+sysV系のシステムでは、シンボル TERMIOを有効にする必要があります。また BSD系
+の古いシステムでは、シンボル NO_STRING_Hを有効にする必要があるかもしれません。
+シンボル NO_STDLIB_Hの必要性はシステム毎に異なります。
 
-$@%7%s%\%k(J UPDATE_DIC$@$rM-8z$K$7$?>l9g!"(Jconfig.h$@$G;XDj$9$kDj?tDj5A(J FRAME_POOL$@$N(J
-$@CM$,(J 1023$@0J2<$G$"$l$P!"%7%s%\%k(J SMALL_POOL$@$O<+F0E*$KM-8z$K$J$j$^$9!#(J
+シンボル UPDATE_DICを有効にした場合、config.hで指定する定数定義 FRAME_POOLの
+値が 1023以下であれば、シンボル SMALL_POOLは自動的に有効になります。
 
-$@$J$*!"%3%s%Q%$%k%*%W%7%g%s$rJQ99$7$?>l9g$OI,$:<!$N$h$&$K(J make$@$7$F$/$@$5$$!#(J
+なお、コンパイルオプションを変更した場合は必ず次のように makeしてください。
 
 	$ make clean ; make
 
-$@$^$?!"%7%s%\%k(J MERGE$@$rM-8z$7$?>l9g$O!"<!$N$h$&$K(J make$@$7$F$/$@$5$$!#(J
+また、シンボル MERGEを有効した場合は、次のように makeしてください。
 
 	$ make clean ; make m_ari
 
-$@$3$N>l9g!"2>L>4A;zJQ49=hM}$r4^$`(J stand alone$@%?%$%W$N(J $@!V$"$j!)!W$,%U%!%$%kL>(J
-m_ari$@$H$7$F(Jmake$@$5$l$^$9!#(J
+この場合、仮名漢字変換処理を含む stand aloneタイプの 「あり？」がファイル名
+m_ariとしてmakeされます。
 
-$@$J$*(J MINIX 1.5 for IBM-PC $@$J$I%W%m%0%i%`$N%G!<%?NN0h$NBg$-$5$,(J 64KB$@$K@)8B$5$l(J
-$@$F$$$k%7%9%F%`8~$1$K(J stand alone$@%?%$%W$N!V$"$j!)!W$r(J make$@$9$k>l9g$O!"%7%s%\%k(J
-SMALL_REG$@$rM-8z$K$9$k$+!"$"$k$$$O%7%s%\%k(J UPDATE_DIC$@$rL58z$K$7$F$/$@$5$$!#(J
-$@%7%s%\%k(J MERGE$@!"(JUPDATE_DIC$@$*$h$S(J SMALL_REG$@$rF1;~$KM-8z$K$7$?>l9g!"%7%s%\%k(J
-SMALL_POOL$@$,<+F0E*$KM-8z$K$J$k$H$H$b$K!"Dj?tDj5A(J FRAME_POOL$@$NCM$O(J 256$@0J2<$K@)(J
-$@8B$5$l$^$9!J$b$7(J FRAME_POOL$@$NCM$,(J 256$@0J>e$G$"$l$P!"(J256$@$K:F@_Dj$5$l$^$9!K!#(J
+なお MINIX 1.5 for IBM-PC などプログラムのデータ領域の大きさが 64KBに制限され
+ているシステム向けに stand aloneタイプの「あり？」を makeする場合は、シンボル
+SMALL_REGを有効にするか、あるいはシンボル UPDATE_DICを無効にしてください。
+シンボル MERGE、UPDATE_DICおよび SMALL_REGを同時に有効にした場合、シンボル
+SMALL_POOLが自動的に有効になるとともに、定数定義 FRAME_POOLの値は 256以下に制
+限されます（もし FRAME_POOLの値が 256以上であれば、256に再設定されます）。
 
-stand alone$@%?%$%W$N(J $@!V$"$j!)!W$O!"4D6-JQ?t(J ARI_KKF$@$,L58z$K$J$k$[$+$O=>Mh$N(J
-$@!V$"$j!)!W$HF1MM$KF0:n$7$^$9!#(J
+stand aloneタイプの 「あり？」は、環境変数 ARI_KKFが無効になるほかは従来の
+「あり？」と同様に動作します。
 
 
-$@IUO?#E(J  ari$@$G;H$&<gMW$JDj?tDj5A$N@bL@(J
+付録Ｅ  ariで使う主要な定数定義の説明
 
-ari$@$G;H$&<gMW$JDj?tDj5A$O<!$N$H$*$j$G$9!#$J$*3g8LFb$OI8=`@_DjCM$r<($7$^$9!#(J
+ariで使う主要な定数定義は次のとおりです。なお括弧内は標準設定値を示します。
 
 config.h:
-	MODE       $@!D(J $@%U%!%$%k$r(Jwrite$@$9$k:]$K;H$&(Jcreat$@%b!<%I(J(0666)
-	BUF        $@!D(J $@07$($k:GBg$N%U%!%$%k%P%$%H?t(J(16383)
-                      int$@7?@0?t:GBgCM$N(J1/2$@$^$G$NCM$r$H$k$3$H$,2DG=(J
-	FRAME_POOL $@!D(J UPDATE_DIC$@;XDj;~$KMxMQ$9$kFbIt:n6HNN0h$NBg$-$5(J(16000)
+	MODE       … ファイルをwriteする際に使うcreatモード(0666)
+	BUF        … 扱える最大のファイルバイト数(16383)
+                      int型整数最大値の1/2までの値をとることが可能
+	FRAME_POOL … UPDATE_DIC指定時に利用する内部作業領域の大きさ(16000)
 
 lazy.h:
-	SYSBUF $@!D(J $@2hLL:G2<9T$KI=<($9$k%a%C%;!<%8%P%C%U%!$NJ8;z?t(J(80)
+	SYSBUF … 画面最下行に表示するメッセージバッファの文字数(80)
 
 ae.c:
-	REGBUF $@!D(J $@FbIt%P%C%U%!$NJ8;z?t(J(1023)
+	REGBUF … 内部バッファの文字数(1023)
 
 lazy.c:
-	MAX_LINES     $@!D(J $@@_Dj$G$-$k2hLL$N:GBg$N9T?t(J(40)
-	MAX_COLS      $@!D(J $@@_Dj$G$-$k2hLL$N:GBg$NJ8;z?t(J(120)
-	DEFAULT_LINES $@!D(J $@2hLL$N%G%U%)%k%H9T?t(J(25)
-	DEFAULT_COLS  $@!D(J $@2hLL$N%G%U%)%k%HJ8;z?t(J(80)
+	MAX_LINES     … 設定できる画面の最大の行数(40)
+	MAX_COLS      … 設定できる画面の最大の文字数(120)
+	DEFAULT_LINES … 画面のデフォルト行数(25)
+	DEFAULT_COLS  … 画面のデフォルト文字数(80)
 
 kanakan.c:
-	LEN  $@!D(J $@2>L>4A;zJQ49$GMQ$$$k:n6H%P%C%U%!$N%P%$%H?t$^$?$OJ8;z?t(J(100)$@!#(J
+	LEN  … 仮名漢字変換で用いる作業バッファのバイト数または文字数(100)。
 
-$@$^$?!"2hLL@)8fMQJ8;zNs$O<!$N$H$*$j$G$9(J(lazy.c$@FbIt$GDj5A(J)$@!#(J
+また、画面制御用文字列は次のとおりです(lazy.c内部で定義)。
 
-	MOVE(y,x) $@!D(J $@2hLL$N(J(y,x)$@$X%+!<%=%k$r0\F0(J
+	MOVE(y,x) … 画面の(y,x)へカーソルを移動
 	             ((sprintf(_wbuf, "\033[%d;%dH", (y)+1, (x)+1), _wbuf))
-	CLEAR     $@!D(J $@%+!<%=%k$r:8>e$K0\F0$72hLLA4BN$r%/%j%"(J
+	CLEAR     … カーソルを左上に移動し画面全体をクリア
 	             ("\033[H\033[0J")
-	CLRTOEOL  $@!D(J $@%+!<%=%k0LCV$+$i9T$N:G8e$^$G$r%/%j%"(J
+	CLRTOEOL  … カーソル位置から行の最後までをクリア
 	             ("\033[K")
 
 
-$@IUO?#F(J  $@%H%i%V%k%7%e!<%F%#%s%0(J
+付録Ｆ  トラブルシューティング
 
-$@!&(Jmake$@;~$K!"!V(Jstdlib.h$@$,$J$$!W$H%(%i!<$K$J$k(J
-    $@"*(J Makefile$@$G%3%s%Q%$%k;~%*%W%7%g%s(J NO_STDLIB_H$@$rM-8z$K$7$F$/$@$5$$!#(J
-$@!&(Jmake$@;~$K!"!V(Jsgtty.h$@$,$J$$!W$H%(%i!<$K$J$k(J
-    $@"*(J Makefile$@$G%3%s%Q%$%k;~%*%W%7%g%s(J TERMIO$@$rM-8z$K$7$F$/$@$5$$!#(J
-$@!&(Jmake$@;~$K!"!V(Jtermio.h$@$,$J$$!W$H%(%i!<$K$J$k(J
-    $@"*(J Makefile$@$G%3%s%Q%$%k;~%*%W%7%g%s(J TERMIO$@$rL58z$K$7$F$/$@$5$$!#(J
-$@!&(Jari$@$r(Jmake$@;~$K!"!V4X?t(Jlookup$@!"(Jinitkkf$@$,$J$$!W$H%(%i!<$K$J$k(J
-    $@"*(J Makefile$@$G%3%s%Q%$%k;~%*%W%7%g%s(J MERGE$@$rL58z$K$7$F$/$@$5$$!#(J
-$@!&(Jm_ari$@$r(Jmake$@;~$K!"!V(J main$@4X?t$NFs=EDj5A!W$H%(%i!<$K$J$k(J
-    $@"*(J Makefile$@$G%3%s%Q%$%k;~%*%W%7%g%s(J MERGE$@$rM-8z$K$7$F$/$@$5$$!#(J
-$@!&(Jari$@5/F0;~$K(J "unable to use kanakan. -- no process" $@$H%(%i!<$K$J$k(J
-    $@"*(J $@4D6-JQ?t(J ARI_KKF$@$,Dj5A$5$l$F$*$j$^$;$s!#(J ARI_KKF$@$r@5$7$$CM$KDj5A$7$F(J
-       ari$@$r5/F0$7D>$7$F$/$@$5$$!#(J
-$@!&$R$i$,$J$d4A;z$NI=<($,$G$J$$!"$"$k$$$O$*$+$7$$(J
-    $@"*(J $@%U%!%$%kF~=PNO$^$?$OI=<($N4A;z%3!<%I$,E,@Z$G$O$"$j$^$;$s!#4D6-JQ?t(J
-       ARI_CODEDEF$@$r@5$7$/@_Dj$7$F$/$@$5$$!#(J
-       $@!J8=:_$N4A;z%3!<%I@_Dj>u67$O(J'^G'$@%3%^%s%I$GCN$k$3$H$,$G$-$^$9!K(J
-$@!&(Jari$@5/F0;~$K(J "unable to use kanakan -- process dead." $@$H%(%i!<$K$J$k(J
-    $@!D(J $@2>L>4A;zJQ49%W%m%0%i%`$N5/F0$K<:GT$7$^$7$?!#<!$N$$$/$D$+$N2DG=@-$,$"(J
-       $@$j$^$9!#(J
-       (a) $@4D6-JQ?t(J ARI_KKF$@$NCM$N$"$d$^$j(J
-       (b) $@4D6-JQ?t(J ARI_KKF$@$G;XDj$9$k2>L>4A;zJQ49%W%m%0%i%`$,$J$$(J
-       (c) skksrch$@$,;H$&%m!<%+%k<-=q%U%!%$%k(J $HOME/.skk-jisyo$@$,$J$$(J
-       (d) $@4D6-JQ?t(J LOCAL_SKK_JISYO$@$G;XDj$9$k%m!<%+%k<-=q%U%!%$%k$,$J$$(J
-       (e) $@$=$NB>!"(Jskksrch$@$N5/F0;~%*%W%7%g%s$"$d$^$jEy(J
-$@!&(Jari$@$"$k$$$O(J m_ari$@$N5/F0$K?t==IC!A#1J,0J>e$+$+$k(J
-    $@"*(J $@FC$KBg$-$J<-=q%U%!%$%k$rMQ$$$F$$$k>l9g!"5/F0$K?t==IC!A#1J,0J>e$+$+$k$3(J
-       $@$H$,$"$j$^$9!#Bg$-$J<-=q%U%!%$%k$r%$%s%G%C%/%9IU$-<-=q%U%!%$%k$KJQ99$9(J
-       $@$k$3$H$G5/F0;~4V$rC;$/$9$k$3$H$,$G$-$^$9!#(J
-       $@!J!X(JB.4 $@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$K$D$$$F!Y;2>H!K(J
-$@!&(JSKK$@<-=q%U%!%$%k$K$"$k%(%s%H%j$,2>L>4A;zJQ49$G$-$J$$(J
-    $@!D(J $@<!$N$$$/$D$+$N2DG=@-$,$"$j$^$9!#(J
-       (a) $@4D6-JQ?t(J LOCAL_SKK_JISYO$@$^$?$O(J SKK_JISYO$@$N;XDj$"$d$^$j(J
-           $@"*(J $@;HMQ$9$k(JSKK$@<-=q%U%!%$%k$r@5$7$/;XDj$7$F$/$@$5$$!#(J
-       (b) SKK$@<-=q%U%!%$%k$N%(%s%H%j=g=x$N$"$d$^$j(J
-           $@"*(J $@%(%s%H%j$O>:=g$K%=!<%H$7$F$/$@$5$$!#$J$*(J ASCII$@J8;z$N8+=P$78l$O!"(J
-              $@$R$i$,$J$N8+=P$78l$h$jA0$K$"$kI,MW$,$"$j$^$9!#(J
-       (c) SKK$@<-=q%U%!%$%k$N4A;z%3!<%I$"$d$^$j(J
-           $@"*(J EUC$@$H$7$F$/$@$5$$!#(J
-$@!&8l6g$NEPO?$K<:GT$9$k(J
-    $@!D(J $@<!$N$$$/$D$+$N2DG=@-$,$"$j$^$9!#(J':setup'$@%3%^%s%I$GF0:n>u67$rD4$Y$F$/$@(J
-       $@$5$$!#(J
-       (a) $@8l6g$NEPO?5!G=$,L58z$K$J$C$F$$$k(J
-           $@"*(J Makefile$@$G%3%s%Q%$%k;~%*%W%7%g%s(J UPDATE_DIC$@$rM-8z$K$7$F(J make$@$7(J
-              $@D>$7$F$/$@$5$$!#(J
-       (b) $@2>L>4A;zJQ49%W%m%0%i%`$,F0:n$7$F$$$J$$(J
-           $@"*(J $@$$$C$?$s%W%m%0%i%`$r=*N;$7!"2>L>4A;zJQ49%W%m%0%i%`$r@5$7$/F0:n(J
-              $@$9$k$h$&$K$7$F$+$i!":F5/F0$7$F$/$@$5$$!#(J
-              $@!J!V(Jari$@5/F0;~$K(J "unable to $@!D!D(J" $@$H%(%i!<$K$J$k!W$N9`;2>H!K(J
-       (c) $@FbIt:n6HNN0h$NITB-(J
-           $@"*(J $@$$$C$?$s%W%m%0%i%`$r=*N;$7!":F5/F0$7$F$/$@$5$$!#(J
-$@!&%m!<%+%k<-=q%U%!%$%k$N99?7$K<:GT$9$k(J
-    $@!D(J $@<!$N$$$/$D$+$N2DG=@-$,$"$j$^$9!#(J
-       (a) $@%m!<%+%k<-=q%U%!%$%k$X=q$-9~$_$,$G$-$J$$(J
-           $@"*(J $@%U%!%$%k$N5v2D%b!<%I$r=q$-9~$_$,$G$-$k$h$&@_Dj$7$F$/$@$5$$!#(J
-       (b) $@?7$?$K%m!<%+%k<-=q%U%!%$%k$r:n@.$G$-$J$$(J
-           $@"*(J $@%m!<%+%k<-=q%U%!%$%k$N$"$k%G%#%l%/%H%j$N5v2D%b!<%I$r=q$-9~$_$,(J
-              $@$G$-$k$h$&@_Dj$7$F$/$@$5$$!#(J
-$@!&%m!<%+%k<-=q%U%!%$%k$N99?7$N:]!"$b$H$N%U%!%$%k$,J]B8$5$l$J$$!#(J
-    $@!D(J $@<!$N$$$/$D$+$N2DG=@-$,$"$j$^$9!#(J
-       (a) $@%m!<%+%k<-=q%U%!%$%kL>$,D9$/J]B8MQ$N%U%!%$%kL>$,:n@.$G$-$J$$(J
-           $@"*(J MINIX $@$d(J sysV$@$G$O%U%!%$%kL>$ND9$5$O(J 14$@J8;z$^$G$G$9!#(J
-              local$@<-=q%U%!%$%kL>$r(J 13$@J8;z0J2<$K$7$F$/$@$5$$!#(J
-       (b) $@%m!<%+%k<-=q%U%!%$%kL>$rJQ99$G$-$J$$(J
-           $@"*(J $@%m!<%+%k<-=q%U%!%$%k$N$"$k%G%#%l%/%H%j$N5v2D%b!<%I$r=q$-9~$_$,(J
-              $@$G$-$k$h$&@_Dj$7$F$/$@$5$$!#(J
+・make時に、「stdlib.hがない」とエラーになる
+    → Makefileでコンパイル時オプション NO_STDLIB_Hを有効にしてください。
+・make時に、「sgtty.hがない」とエラーになる
+    → Makefileでコンパイル時オプション TERMIOを有効にしてください。
+・make時に、「termio.hがない」とエラーになる
+    → Makefileでコンパイル時オプション TERMIOを無効にしてください。
+・ariをmake時に、「関数lookup、initkkfがない」とエラーになる
+    → Makefileでコンパイル時オプション MERGEを無効にしてください。
+・m_ariをmake時に、「 main関数の二重定義」とエラーになる
+    → Makefileでコンパイル時オプション MERGEを有効にしてください。
+・ari起動時に "unable to use kanakan. -- no process" とエラーになる
+    → 環境変数 ARI_KKFが定義されておりません。 ARI_KKFを正しい値に定義して
+       ariを起動し直してください。
+・ひらがなや漢字の表示がでない、あるいはおかしい
+    → ファイル入出力または表示の漢字コードが適切ではありません。環境変数
+       ARI_CODEDEFを正しく設定してください。
+       （現在の漢字コード設定状況は'^G'コマンドで知ることができます）
+・ari起動時に "unable to use kanakan -- process dead." とエラーになる
+    … 仮名漢字変換プログラムの起動に失敗しました。次のいくつかの可能性があ
+       ります。
+       (a) 環境変数 ARI_KKFの値のあやまり
+       (b) 環境変数 ARI_KKFで指定する仮名漢字変換プログラムがない
+       (c) skksrchが使うローカル辞書ファイル $HOME/.skk-jisyoがない
+       (d) 環境変数 LOCAL_SKK_JISYOで指定するローカル辞書ファイルがない
+       (e) その他、skksrchの起動時オプションあやまり等
+・ariあるいは m_ariの起動に数十秒〜１分以上かかる
+    → 特に大きな辞書ファイルを用いている場合、起動に数十秒〜１分以上かかるこ
+       とがあります。大きな辞書ファイルをインデックス付き辞書ファイルに変更す
+       ることで起動時間を短くすることができます。
+       （『B.4 インデックス付き辞書ファイルについて』参照）
+・SKK辞書ファイルにあるエントリが仮名漢字変換できない
+    … 次のいくつかの可能性があります。
+       (a) 環境変数 LOCAL_SKK_JISYOまたは SKK_JISYOの指定あやまり
+           → 使用するSKK辞書ファイルを正しく指定してください。
+       (b) SKK辞書ファイルのエントリ順序のあやまり
+           → エントリは昇順にソートしてください。なお ASCII文字の見出し語は、
+              ひらがなの見出し語より前にある必要があります。
+       (c) SKK辞書ファイルの漢字コードあやまり
+           → EUCとしてください。
+・語句の登録に失敗する
+    … 次のいくつかの可能性があります。':setup'コマンドで動作状況を調べてくだ
+       さい。
+       (a) 語句の登録機能が無効になっている
+           → Makefileでコンパイル時オプション UPDATE_DICを有効にして makeし
+              直してください。
+       (b) 仮名漢字変換プログラムが動作していない
+           → いったんプログラムを終了し、仮名漢字変換プログラムを正しく動作
+              するようにしてから、再起動してください。
+              （「ari起動時に "unable to ……" とエラーになる」の項参照）
+       (c) 内部作業領域の不足
+           → いったんプログラムを終了し、再起動してください。
+・ローカル辞書ファイルの更新に失敗する
+    … 次のいくつかの可能性があります。
+       (a) ローカル辞書ファイルへ書き込みができない
+           → ファイルの許可モードを書き込みができるよう設定してください。
+       (b) 新たにローカル辞書ファイルを作成できない
+           → ローカル辞書ファイルのあるディレクトリの許可モードを書き込みが
+              できるよう設定してください。
+・ローカル辞書ファイルの更新の際、もとのファイルが保存されない。
+    … 次のいくつかの可能性があります。
+       (a) ローカル辞書ファイル名が長く保存用のファイル名が作成できない
+           → MINIX や sysVではファイル名の長さは 14文字までです。
+              local辞書ファイル名を 13文字以下にしてください。
+       (b) ローカル辞書ファイル名を変更できない
+           → ローカル辞書ファイルのあるディレクトリの許可モードを書き込みが
+              できるよう設定してください。
 
 
-$@IUO?#G(J  $@F|K\8l(J minix 1.5 for IBM-PC $@$G!V$"$j!)!W$r;H$&(J
+付録Ｇ  日本語 minix 1.5 for IBM-PC で「あり？」を使う
 
-G.1 $@:`NA(J
-  $@!&(Jari$@!"(Jskksrch$@%=!<%90l<0(J
-  $@!&(JSKK$@<-=q%U%!%$%k!JJLESF~<j$7$F$/$@$5$$!K(J
+G.1 材料
+  ・ari、skksrchソース一式
+  ・SKK辞書ファイル（別途入手してください）
 
-G.2 $@D4M}J}K!(J
-  (1) ari$@!"(Jskksrch$@$r(Jmake$@$9$k!#(J
-      ari$@!"(Jskksrch$@$N%=!<%9$,E83+$5$l$F$$$k%G%#%l%/%H%j$G(J
-        $ make		$@!J(Jari$@!"(Jskksrch$@$,@8@.$5$l$k!K(J
+G.2 調理方法
+  (1) ari、skksrchをmakeする。
+      ari、skksrchのソースが展開されているディレクトリで
+        $ make		（ari、skksrchが生成される）
 
-  (2) ari$@!"(Jskksrch$@$r%3%^%s%I(JPATH$@$NE,Ev$J$H$3$m$KCV$/!#!J(J$HOME/bin$@Ey!K(J
+  (2) ari、skksrchをコマンドPATHの適当なところに置く。（$HOME/bin等）
 
-  (3) $@%m!<%+%k<-=q%U%!%$%k$r:n@.$9$k!J$H$j$"$($:6u%U%!%$%k$H$7$F$*$/!K!#(J
+  (3) ローカル辞書ファイルを作成する（とりあえず空ファイルとしておく）。
         $ cp /dev/null $HOME/.skk-jisyo
 
-  (4) $@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$r:n@.$9$k!#!J>JN,2D!K(J
-      $@!J(JSKK$@<-=q%U%!%$%k$,(J ./SKK-JISYO.M $@$K$"$j!"(J
-        $@%$%s%G%C%/%9IU$-<-=q%U%!%$%k$r(J ./idxSKK-JISYO.M $@$H$9$k>l9g!K(J
+  (4) インデックス付き辞書ファイルを作成する。（省略可）
+      （SKK辞書ファイルが ./SKK-JISYO.M にあり、
+        インデックス付き辞書ファイルを ./idxSKK-JISYO.M とする場合）
         $ skksrch -index ./SKK-JISYO -to ./idxSKK-JISYO.M
 
-G.3 $@;n?)J}K!(J
-  (1) $@%3!<%I;XDj$N$?$a$N4D6-JQ?t$N@_Dj!#!J(JEUC$@$r;H$&>l9g$OITMW!K(J
-      $@!J%U%!%$%kF~=PNO!"I=<($H$b(JSHIFT-JIS$@%3!<%I$r;H$&>l9g!K(J
+G.3 試食方法
+  (1) コード指定のための環境変数の設定。（EUCを使う場合は不要）
+      （ファイル入出力、表示ともSHIFT-JISコードを使う場合）
         $ ARI_CODEDEF=SNS
         $ export ARI_CODEDEF
 
-  (2) $@2>L>4A;zJQ49%W%m%0%i%`;XDj$N$?$a$N4D6-JQ?t$N@_Dj!#(J
+  (2) 仮名漢字変換プログラム指定のための環境変数の設定。
         $ ARI_KKF=skksrch
         $ export ARI_KKF
 
-  (3) $@6&DL<-=q%U%!%$%k$N(JPATH$@$r4D6-JQ?t$K@_Dj$9$k!#(J
-      $@!J%$%s%G%C%/%9IU$-<-=q%U%!%$%k$,(J/usr/dic/idxSKK-JISYO.M$@$K$"$k>l9g!K(J
+  (3) 共通辞書ファイルのPATHを環境変数に設定する。
+      （インデックス付き辞書ファイルが/usr/dic/idxSKK-JISYO.Mにある場合）
         $ SKK_JISYO=/usr/dic/idxSKK-JISYO.M
         $ export SKK_JISYO
 
-  (4) .profile $@$G$N4D6-Dj5ANc(J
+  (4) .profile での環境定義例
 	PATH=:$HOME/bin:/bin:/usr/bin:/usr/lib:/usr/local/bin:
 	umask 022
 	SHELL=/bin/sh
@@ -1018,7 +1018,7 @@ G.3 $@;n?)J}K!(J
 	SKK_JISYO=/usr/dic/SKK-JISYO.M
 	export PATH HOME PS1 PS2 TERM ARI_CODEDEF ARI_KKF SKK_JISYO
   
-$@0J>e$G!V$"$j!)!W$r;H$&=`Hw$,$G$-$^$7$?!#(Jari$@$r5/F0$7$F2<$5$$!#(J
+以上で「あり？」を使う準備ができました。ariを起動して下さい。
         $ ari file
 
-								$@=*$o$j(J
+								終わり
